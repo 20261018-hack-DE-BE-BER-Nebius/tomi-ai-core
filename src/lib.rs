@@ -12,6 +12,8 @@ pub struct AppState {
     pub client: reqwest::Client,
     pub capacity: Arc<tokio::sync::Semaphore>,
     pub run_capacity: Arc<tokio::sync::Semaphore>,
+    pub diarization_capacity: Arc<tokio::sync::Semaphore>,
+    pub diarization_model_verified: bool,
 }
 
 impl AppState {
@@ -24,6 +26,8 @@ impl AppState {
             .redirect(reqwest::redirect::Policy::none())
             .build()?;
         Ok(Self {
+            diarization_model_verified: application::diarization::verify_model(&config),
+            diarization_capacity: Arc::new(tokio::sync::Semaphore::new(1)),
             capacity: Arc::new(tokio::sync::Semaphore::new(config.max_concurrent_runs)),
             run_capacity: Arc::new(tokio::sync::Semaphore::new(config.max_concurrent_runs)),
             config: Arc::new(config),

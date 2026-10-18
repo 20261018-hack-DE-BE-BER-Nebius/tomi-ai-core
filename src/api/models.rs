@@ -41,10 +41,12 @@ fn item(
 }
 
 pub async fn catalog(state: &AppState) -> Value {
-    let (openai, nebius, parse) = tokio::join!(
+    let (openai, nebius, parse, embed, rerank) = tokio::join!(
         discover(state, &state.config.openai),
         discover(state, &state.config.nebius),
-        discover(state, &state.config.parse)
+        discover(state, &state.config.parse),
+        discover(state, &state.config.embed),
+        discover(state, &state.config.rerank)
     );
     let c = &state.config;
     let mut data: Vec<Value> = [c.reasoning_model.as_str(), "gpt-5.6-luna", "gpt-5.6-terra"]
@@ -93,9 +95,14 @@ pub async fn catalog(state: &AppState) -> Value {
             "nvidia",
             cap,
             !endpoint.base_url.is_empty(),
-            if cap == "parse" { &parse } else { &None },
+            match cap {
+                "parse" => &parse,
+                "embedding" => &embed,
+                _ => &rerank,
+            },
         ));
     }
+    data.push(json!({"id":crate::application::diarization::MODEL,"name":"Nemotron 3 Diarization","object":"model","provider":"nvidia","upstream_model":crate::application::diarization::MODEL,"capabilities":["diarization"],"available":state.diarization_model_verified,"availability_reason":if state.diarization_model_verified {"pinned_local_model_sha256_verified; batch CPU speaker turns"} else {"pinned_local_model_not_installed"}}));
     json!({"object":"list","data":data,"checked_at":chrono::Utc::now().to_rfc3339()})
 }
 

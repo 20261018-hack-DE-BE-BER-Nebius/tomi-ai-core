@@ -129,6 +129,11 @@ pub async fn diarize(
     State(state): State<AppState>,
     Json(body): Json<Value>,
 ) -> Result<Json<Value>, ApiError> {
+    if state.config.diarize.base_url.is_empty() {
+        return crate::application::diarization::run(&state, body)
+            .await
+            .map(Json);
+    }
     let _permit = state
         .capacity
         .clone()

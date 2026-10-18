@@ -72,7 +72,7 @@ async fn responses_requires_auth_and_keeps_function_tools_with_bounded_stateless
 }
 
 #[tokio::test]
-async fn catalog_verifies_anonymous_parse_endpoint() {
+async fn catalog_verifies_parse_and_both_retrieval_endpoints() {
     let (state, server) = fixture().await;
     let mut config = (*state.config).clone();
     config.parse.key.clear();
@@ -85,5 +85,16 @@ async fn catalog_verifies_anonymous_parse_endpoint() {
         .unwrap();
     assert_eq!(parse["available"], true);
     assert_eq!(parse["upstream_model"], "nvidia/nemotron-3.5-parse");
+    for id in ["nemotron-3-embed-vl", "nemotron-3-rerank-vl"] {
+        assert_eq!(
+            result["data"]
+                .as_array()
+                .unwrap()
+                .iter()
+                .find(|item| item["id"] == id)
+                .unwrap()["available"],
+            true
+        );
+    }
     server.abort();
 }
