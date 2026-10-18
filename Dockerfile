@@ -5,7 +5,7 @@ COPY proto ./proto
 COPY src ./src
 RUN cargo build --release --locked
 
-FROM debian:12.13-slim
+FROM debian:13.7-slim
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates curl ffmpeg && rm -rf /var/lib/apt/lists/* && useradd --uid 10001 --create-home tomi
 RUN set -eu; case "$(dpkg --print-architecture)" in \
       amd64) nemo_arch=x86_64; nemo_hash=f396057150f1b774935c7414fd32ebc04195a795a34120d78d8c9ecefa1b7507 ;; \
