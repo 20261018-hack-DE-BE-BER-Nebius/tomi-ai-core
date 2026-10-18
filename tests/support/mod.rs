@@ -55,9 +55,11 @@ pub async fn fixture() -> (AppState, tokio::task::JoinHandle<()>) {
         .route("/chat/completions",post(|Json(body):Json<Value>|async move{
             if body["model"]=="nvidia/Nemotron-3.5-Super-VL" {
                 assert_eq!(body["reasoning_effort"],"none");
+                assert_eq!(body["temperature"],0);
                 return Json(json!({"choices":[{"message":{"content":"Shipbuilding techniques"}}]})).into_response();
             }
             assert_eq!(body["model"],"gpt-6-astra");
+            assert!(body.get("temperature").is_none());
             if body["stream"]==true{(StatusCode::OK,[("content-type","text/event-stream")],"data: {\"choices\":[{\"delta\":{\"content\":\"Fixture comparison [b1] [w1].\"}}]}\n\ndata: [DONE]\n\n").into_response()}
             else{Json(json!({"choices":[{"message":{"content":"Fixture response"}}]})).into_response()}
         })).route("/responses",post(|Json(body):Json<Value>|async move{
