@@ -89,12 +89,17 @@ async fn execute(
     } else {
         "hermes.retrieve"
     };
+    let retrieval_request = if nemotron {
+        json!({"question":input.text,"discovery_query":question,"locale":input.language,"top_k":6})
+    } else {
+        json!({"question":question,"locale":input.language,"top_k":6})
+    };
     emit(
         tx,
         "tool.started",
         run,
         input,
-        json!({"name":tool,"arguments":{"question":question,"locale":input.language}}),
+        json!({"name":tool,"arguments":retrieval_request}),
     )
     .await?;
     let path = if nemotron {
@@ -102,12 +107,7 @@ async fn execute(
     } else {
         "/v1/retrieve"
     };
-    let result = provider::hermes(
-        state,
-        path,
-        &json!({"question":question,"locale":input.language,"top_k":6}),
-    )
-    .await?;
+    let result = provider::hermes(state, path, &retrieval_request).await?;
     let evidence = generative::evidence(&result);
     emit(tx,"tool.completed",run,input,json!({"name":tool,"status":result.get("status"),"sources":evidence.len(),"traces":result.get("traces"),"blockers":result.get("blockers")})).await?;
     if result.get("status").and_then(Value::as_str) == Some("blocked") {

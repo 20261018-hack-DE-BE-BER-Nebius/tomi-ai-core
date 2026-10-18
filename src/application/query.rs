@@ -30,6 +30,7 @@ pub async fn resolve(
         {"role":"user","content":json!({"latest_question":input.text,"conversation_context":input.context}).to_string()}
     ]});
     let limit = if model.starts_with("nvidia/") {
+        body["reasoning_effort"] = "none".into();
         "max_tokens"
     } else {
         "max_completion_tokens"
@@ -40,7 +41,7 @@ pub async fn resolve(
         .pointer("/choices/0/message/content")
         .and_then(Value::as_str)
         .map(str::trim)
-        .filter(|text| !text.is_empty() && text.len() <= 2000)
+        .filter(|text| !text.is_empty() && text.len() <= 512)
         .ok_or_else(ApiError::transport)?
         .to_owned();
     emit(

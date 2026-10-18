@@ -258,3 +258,26 @@ async fn evidence_search_validates_tool_boundary() {
     );
     server.abort();
 }
+
+#[tokio::test]
+async fn nemotron_keeps_original_question_separate_from_discovery_query() {
+    let (state, server) = fixture().await;
+    let question = "Compare shipbuilding. Only compare shelf-pieces and shipyards.";
+    let response = api::router(state).oneshot(request("/v1/compare",json!({"session_id":"nvidia-subject","request_id":"nvidia-r1","text":question,"model":"nemotron-3.5-super-vl","language":"en","context":[]}),true)).await.unwrap();
+    assert_eq!(response.status(), StatusCode::OK);
+    let result: Value =
+        serde_json::from_slice(&response.into_body().collect().await.unwrap().to_bytes()).unwrap();
+    let event = result["traces"]
+        .as_array()
+        .unwrap()
+        .iter()
+        .find(|e| e["type"] == "tool.started" && e["data"]["name"] == "hermes.compare")
+        .unwrap();
+    assert_eq!(event["data"]["arguments"]["question"], question);
+    assert_eq!(
+        event["data"]["arguments"]["discovery_query"],
+        "Shipbuilding techniques"
+    );
+    assert_eq!(result["answer"]["summary"], "Fixture narrow comparison.");
+    server.abort();
+}
