@@ -31,4 +31,4 @@ tonic-prost-build = "0.14"
 [dev-dependencies]
 tower = { version = "0.5", features = ["util"] }
 http-body-util = "0.1"
-tokio-tungstenite = "0.28"
+tokio-tungstenite = "0.29"
