@@ -1,0 +1,52 @@
+{
+  "checked_at": "2026-10-18T16:29:15.573656+00:00",
+  "source_frozen": true,
+  "native_service": {
+    "http": "127.0.0.1:8081",
+    "grpc": "127.0.0.1:50051",
+    "left_running": true
+  },
+  "local_checks": {
+    "rust_tests_passed": 18,
+    "rust_tests_failed": 0,
+    "cargo_fmt": "passed",
+    "cargo_clippy_all_targets_deny_warnings": "passed",
+    "cargo_audit_vulnerabilities": 0,
+    "json_schema_tests_passed": 3,
+    "json_schema_bun_audit": "clean",
+    "buf_lint": "passed",
+    "protobuf_core_copy": "identical",
+    "staged_secret_hooks": "enabled and fail-closed script verified against clean and synthetic-secret staged temporary repositories"
+  },
+  "real_provider_receipts": {
+    "chat": "provider-chat-probe.json",
+    "image": "provider-image-probe.json",
+    "realtime_ephemeral_session": "provider-realtime-probe.json",
+    "source_comparison_languages": [
+      "en",
+      "es",
+      "de",
+      "fr"
+    ],
+    "query_subject_before": "live-query-compound-es-before.json",
+    "query_subject_after": "live-query-compound-es-after.json",
+    "query_subject_positive_control": "live-query-subject-regression.json",
+    "anonymous_parse_catalog": "parse-model-catalog.json"
+  },
+  "containers": {
+    "apple_arm64_manifest": "sha256:0382eee5c8a7ddc496143c116ed9595370d14a75dbaee6dd634d773f8380fd3b",
+    "apple_smoke": "container-smoke.json",
+    "azure_amd64_image": "tomireg2610181730.azurecr.io/tomi-ai-core:20261018-implementation",
+    "azure_amd64_digest": "sha256:a5bf344f9a2e026b586fb856083e8d632bb6054dd6e17f9065532b2e91c258a9",
+    "azure_build_run": "dtb",
+    "azure_live_manifest": "acr-image-final.json"
+  },
+  "verification_limits": [
+    "OpenAI plus real lexical evidence comparisons passed; this does not establish required Nemotron semantic pipeline success",
+    "Nemotron agent credential and Embed/Rerank/Diarization endpoints remain unconfigured",
+    "Realtime ephemeral session verified; microphone, full-duplex call, and speaker diarization were not tested in this lane",
+    "Provider catalog success does not guarantee later invocation or quota",
+    "Azure image build/push verified; deployed application behavior belongs to parent integration lane"
+  ],
+  "staged_paths": []
+}

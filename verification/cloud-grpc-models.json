@@ -1,0 +1,173 @@
+{
+  "observed_at": "2026-10-18T16:46:56.286534+00:00",
+  "attempt": 2,
+  "resource_group": "rg-tomi-202610181730",
+  "caller": "tomi-back",
+  "target": "internal core HTTPS ingress port443 ->8081",
+  "rpc": "tomi.ai.v1.AiGatewayService/GetModels",
+  "credential_source": "TOMI_CORE_TOKEN runtime environment; value never printed or persisted",
+  "transport_configuration_changed": false,
+  "exec_exit": 0,
+  "exec_timeout": false,
+  "curl_exit": "0",
+  "http_version": "2",
+  "http_status": "200",
+  "grpc_status": null,
+  "response_parse_error": null,
+  "catalog": {
+    "checked_at": "2026-10-18T16:46:56.122050990+00:00",
+    "data": [
+      {
+        "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+        "available": true,
+        "capabilities": [
+          "chat"
+        ],
+        "id": "gpt-6-astra",
+        "name": "gpt-6-astra",
+        "object": "model",
+        "provider": "openai-compatible",
+        "upstream_model": "gpt-6-astra"
+      },
+      {
+        "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+        "available": true,
+        "capabilities": [
+          "chat"
+        ],
+        "id": "gpt-5.6-luna",
+        "name": "gpt-5.6-luna",
+        "object": "model",
+        "provider": "openai-compatible",
+        "upstream_model": "gpt-5.6-luna"
+      },
+      {
+        "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+        "available": true,
+        "capabilities": [
+          "chat"
+        ],
+        "id": "gpt-5.6-terra",
+        "name": "gpt-5.6-terra",
+        "object": "model",
+        "provider": "openai-compatible",
+        "upstream_model": "gpt-5.6-terra"
+      },
+      {
+        "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+        "available": true,
+        "capabilities": [
+          "image"
+        ],
+        "id": "gpt-image-2.5-sunburst",
+        "name": "gpt-image-2.5-sunburst",
+        "object": "model",
+        "provider": "openai-compatible",
+        "upstream_model": "gpt-image-2.5-sunburst"
+      },
+      {
+        "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+        "available": true,
+        "capabilities": [
+          "realtime"
+        ],
+        "id": "gpt-realtime-2.1",
+        "name": "gpt-realtime-2.1",
+        "object": "model",
+        "provider": "openai-compatible",
+        "upstream_model": "gpt-realtime-2.1"
+      },
+      {
+        "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+        "available": true,
+        "capabilities": [
+          "transcription"
+        ],
+        "id": "gpt-live-transcribe",
+        "name": "gpt-live-transcribe",
+        "object": "model",
+        "provider": "openai-compatible",
+        "upstream_model": "gpt-live-transcribe"
+      },
+      {
+        "availability_reason": "provider_not_configured",
+        "available": false,
+        "capabilities": [
+          "chat"
+        ],
+        "id": "nemotron-3.5-super-vl",
+        "name": "nemotron-3.5-super-vl",
+        "object": "model",
+        "provider": "nebius",
+        "upstream_model": "nvidia/Nemotron-3.5-Super-VL"
+      },
+      {
+        "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+        "available": true,
+        "capabilities": [
+          "parse"
+        ],
+        "id": "nemotron-parse-3.5",
+        "name": "nemotron-parse-3.5",
+        "object": "model",
+        "provider": "nvidia",
+        "upstream_model": "nvidia/nemotron-3.5-parse"
+      },
+      {
+        "availability_reason": "provider_not_configured",
+        "available": false,
+        "capabilities": [
+          "embedding"
+        ],
+        "id": "nemotron-3-embed-vl",
+        "name": "nemotron-3-embed-vl",
+        "object": "model",
+        "provider": "nvidia",
+        "upstream_model": "nvidia/llama-nemotron-embed-vl-1b-v2"
+      },
+      {
+        "availability_reason": "provider_not_configured",
+        "available": false,
+        "capabilities": [
+          "rerank"
+        ],
+        "id": "nemotron-3-rerank-vl",
+        "name": "nemotron-3-rerank-vl",
+        "object": "model",
+        "provider": "nvidia",
+        "upstream_model": "nvidia/llama-nemotron-rerank-vl-1b-v2"
+      }
+    ],
+    "object": "list"
+  },
+  "exec_transcript": "INFO: Connecting to the container 'tomi-back'...\nINFO: Successfully connected to container: 'tomi-back'. [ Revision: 'tomi-back--0000001', Replica: 'tomi-back--0000001-785b784f65-h5769'].\n$ stty -echo\n$ $ $ $ $ $ TOMI_HTTP_VERSION=2\nTOMI_HTTP_STATUS=200\n$ TOMI_CURL_EXIT=0\n$ TOMI_HEADERS_BEGIN\nHTTP/2 200 \ncontent-type: application/grpc\ndate: Sun, 18 Oct 2026 16:46:56 GMT\n\n\nTOMI_HEADERS_END\n$ TOMI_BODY_BASE64=<protobuf response decoded into catalog; raw base64 omitted>\n$ $ INFO: received success status from cluster\n",
+  "passed": false,
+  "previous_attempt": {
+    "observed_at": "2026-10-18T16:46:24.313738+00:00",
+    "attempt": 1,
+    "resource_group": "rg-tomi-202610181730",
+    "caller": "tomi-back",
+    "target": "internal core HTTPS ingress port443 ->8081",
+    "rpc": "tomi.ai.v1.AiGatewayService/GetModels",
+    "credential_source": "TOMI_CORE_TOKEN runtime environment; value never printed or persisted",
+    "transport_configuration_changed": false,
+    "exec_exit": 0,
+    "exec_timeout": false,
+    "curl_exit": null,
+    "http_version": null,
+    "http_status": null,
+    "grpc_status": null,
+    "response_parse_error": null,
+    "catalog": null,
+    "exec_transcript": "INFO: Connecting to the container 'tomi-back'...\nINFO: Successfully connected to container: 'tomi-back'. [ Revision: 'tomi-back--0000001', Replica: 'tomi-back--0000001-785b784f65-h5769'].\n+x: 1: Syntax error: Unterminated quoted string\nINFO: received success status from cluster\n",
+    "passed": false
+  },
+  "response_model_count": 10,
+  "grpc_response_frame_valid": true,
+  "rpc_response_delivery_verified": true,
+  "grpc_status_trailer_observed": false,
+  "result": "partial: authenticated GetModels response delivered over HTTP/2; grpc-status trailer absent in captured response",
+  "live_core_ingress_transport": "Auto",
+  "limitation": "A standard gRPC client completion was not verified. No grpc-status trailer appeared in curl dump-header output. Ingress transport is Auto; the precise point where trailers were omitted was not isolated within the two-attempt bound.",
+  "attempts_exhausted": 2
+}

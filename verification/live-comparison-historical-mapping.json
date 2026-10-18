@@ -1,0 +1,9 @@
+{
+  "http_status": 503,
+  "body": {
+    "error": {
+      "code": "not_configured",
+      "message": "Upstream provider returned HTTP 503; check model deployment, credentials, and quota"
+    }
+  }
+}

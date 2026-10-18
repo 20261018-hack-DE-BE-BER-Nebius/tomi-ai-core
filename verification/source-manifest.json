@@ -1,0 +1,191 @@
+{
+  "checked_at": "2026-10-18T16:28:27.539673+00:00",
+  "scope": "Reviewable service source excluding ignored credentials, runtime artifacts, and verification receipts",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "sha256": "81ff210da1e4cdb3b327fbc0884406e314c89367db3e874c25edbc1321936e2d"
+    },
+    {
+      "path": ".env.example",
+      "sha256": "b8b35b9ebf193cc6b24b7e8403559c1ea28345ec5a3b1c6a1c926202fa238772"
+    },
+    {
+      "path": ".githooks/pre-commit",
+      "sha256": "a12dda0c75ef086cd08091701e5558fbdade79f1d732450193506e40e656691a"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "sha256": "50a0a33c36bd1872b8139260a8b5ad88afcc5d445b1d0835c621ae7d3018c449"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "ca52c322fa78e1240b8646ed345f67277558e00d6d18a361d1038845f11c587f"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "sha256": "7119399c9a531c4a9f61a4194cad8ac680e5c27eb4fdcebf4f1b9a6390ecab66"
+    },
+    {
+      "path": "Cargo.lock",
+      "sha256": "0083906f8cb9ee87c6e114ca1a3484a8d8a96463ff0389b9545e52ffe2e7e780"
+    },
+    {
+      "path": "Cargo.toml",
+      "sha256": "bf062a19bfef42fb3cf717f1fb7b95a594e0f9bcb4014cdd1fbbf802a09e77d8"
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "c98b55b7b2e7ed39cd33f869046c3e467939ed6544989ea07b2af20e6c14a3e4"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1c5f41247b44766fd1eccab8e324372f8cbd463e137b1cc87c26c6499783539d"
+    },
+    {
+      "path": "build.rs",
+      "sha256": "63dbe132f9df890bb0f51f37099f6cfc61de15d5d53035d9d8e24550acfd827d"
+    },
+    {
+      "path": "docker-compose.yml",
+      "sha256": "8751adb97513aee8df3964139f7c03acb7afcf27e63a02c60d9b12c8fe26c7ff"
+    },
+    {
+      "path": "justfile",
+      "sha256": "44bcf1bcb15aab781fefb99481cd9710b9f1434e2a12650aa6a653a2f3d0b12f"
+    },
+    {
+      "path": "proto/ai.proto",
+      "sha256": "f1155268c6c27228248e8ca40efb0b6e90fe248035724823c26dc3f781424540"
+    },
+    {
+      "path": "rust-toolchain.toml",
+      "sha256": "b9c8d2d59f6f46474c0cfa0b8b77bea21d94fc73a30ad93d5bf6385c422197d2"
+    },
+    {
+      "path": "scripts/scan-secrets.py",
+      "sha256": "5af683c0c2cb5e5aff7d22c540d1d4988e8c33a67b1b46cd6453178a3bbd22e3"
+    },
+    {
+      "path": "src/api/error.rs",
+      "sha256": "5a383cc4370661265a93c650c14a6da32e3628813c609d9b364d9959c0dd47a3"
+    },
+    {
+      "path": "src/api/evidence.rs",
+      "sha256": "9d65c3a3ad7592d8159fbcbeb40a82d8657940aeb722beff7d6e26a4992bbe2d"
+    },
+    {
+      "path": "src/api/gateway.rs",
+      "sha256": "5494bb656247ca1ed7ea7cdd714f4faec1f7e66cc5a95a7c4036a1c769e84819"
+    },
+    {
+      "path": "src/api/grpc.rs",
+      "sha256": "d9c000f37e1cda2e4088b055e17729108dc2489b5125a83c66a83caa3c51f98f"
+    },
+    {
+      "path": "src/api/media.rs",
+      "sha256": "48047e55e2e7af4ddee4aed30427b77ee3d9a7b2b28ba359143683f443f92bd7"
+    },
+    {
+      "path": "src/api/mod.rs",
+      "sha256": "17d0493bf5060929f93ffbaaac6332501f5f7a50527aed1e0821b64431260cd6"
+    },
+    {
+      "path": "src/api/models.rs",
+      "sha256": "aaeb47e98cff6d48d9b334967ef6c4ea4ce7dee0e512b0dc383722017ab64647"
+    },
+    {
+      "path": "src/api/responses.rs",
+      "sha256": "8d07164ed97f57a73256d023d46f1650d32da32e30951aa3a90bbf7f73849218"
+    },
+    {
+      "path": "src/api/types.rs",
+      "sha256": "c7bcdbdc3968b51ec115813ff8ae55b7e8ed7d48c52fe7849dc6d1ceda0812c3"
+    },
+    {
+      "path": "src/api/ws.rs",
+      "sha256": "131552eebfab6309acf79f376fa57d19b4b73b00a31083d26f4f5c7b6dcaaab7"
+    },
+    {
+      "path": "src/application/chat.rs",
+      "sha256": "0c242c36019b14ba5505fe41b7b57ec5cfd9ff04f43676f6ad8b75c85fe7b10d"
+    },
+    {
+      "path": "src/application/generative.rs",
+      "sha256": "aabf46bd16b1b3e39cf42eb4dc747d4084acc25c9d75108fbbc85b84f5c78f72"
+    },
+    {
+      "path": "src/application/history.rs",
+      "sha256": "6c141d48c594ee974682fdc5de98b01e4e47b287cbfe2af129ecd3a6c6b4d114"
+    },
+    {
+      "path": "src/application/mod.rs",
+      "sha256": "31a4c9144f89d56ada3637fd6d79dcbed78a9b77116e70894f38456613512681"
+    },
+    {
+      "path": "src/application/query.rs",
+      "sha256": "ef4ba3fe757585406792977a25b3dfd7e7b753ef7a5eb8aa904105918ffc7fc8"
+    },
+    {
+      "path": "src/bin/grpc_health_probe.rs",
+      "sha256": "423bc0f35f2491e21c87dc136434d8dc683eda42c86de507ea928b4059762781"
+    },
+    {
+      "path": "src/config.rs",
+      "sha256": "d66998bd155d3f094beefb9ed2ccd7ec8c2ca6c20b51cdc912ad9dd0dfe5400c"
+    },
+    {
+      "path": "src/domain/mod.rs",
+      "sha256": "eb34e62a2361899ed0290738aed89ddbc717001073e8a6b84ecdc5ad600ae914"
+    },
+    {
+      "path": "src/domain/policy.rs",
+      "sha256": "47e9a993f72c1a09b0ace400f963abd2bdbe016a05331cf54ebea7b716cedecf"
+    },
+    {
+      "path": "src/domain/redaction.rs",
+      "sha256": "1ea90ea35a8ed37044680f99c9ea119279e7225dcce0e48030abce716a53b35d"
+    },
+    {
+      "path": "src/infrastructure/mod.rs",
+      "sha256": "9b2c206b37e5a549d39a32402529a04a6aa44487ad3f009a4a0a68c3f082bbca"
+    },
+    {
+      "path": "src/infrastructure/provider.rs",
+      "sha256": "7f9831507cb2552c5e57d32beb2d6eeb56f61130e5152215c3a21c56183c29fe"
+    },
+    {
+      "path": "src/infrastructure/sse.rs",
+      "sha256": "585ccd8d3d99475cf8c39df459c29d027c19473f1efdc3ae05888592ff60bece"
+    },
+    {
+      "path": "src/infrastructure/task.rs",
+      "sha256": "ac7c49e4d7c4de4831decaeb55563c776307817ab97fa9b05e91f703cc6e13ba"
+    },
+    {
+      "path": "src/lib.rs",
+      "sha256": "6c358e9076f22e2f17c14c9474876f42c5b5de91f2f533fa1e6f156a597c220c"
+    },
+    {
+      "path": "src/main.rs",
+      "sha256": "c0dede949af1f4a7d68319953afab4e9aa53ba7b1261b7d3db104715d3342373"
+    },
+    {
+      "path": "tests/contracts.rs",
+      "sha256": "aa776d518be5056498ba19ccf18353622ebfa62a11bebc4a65c44bbb7ef98ba3"
+    },
+    {
+      "path": "tests/grpc.rs",
+      "sha256": "89e8cf612afd1fed19dc4a2608f20e6a2f50e3dbc97544f8bd9a67ca44e6f2e9"
+    },
+    {
+      "path": "tests/responses.rs",
+      "sha256": "ed4a993ff907b6a8e522268992e1625e42c49cfe27aec980b539e07e2a6a0e48"
+    },
+    {
+      "path": "tests/support/mod.rs",
+      "sha256": "63f01e6bbfc278a74987d24cb2e7942dde042910f09d44807889437a947846c7"
+    }
+  ],
+  "staged_paths": []
+}

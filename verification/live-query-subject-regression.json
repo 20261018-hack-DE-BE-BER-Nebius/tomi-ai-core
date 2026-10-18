@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-10-18T16:25:02.956435+00:00",
+  "purpose": "Real model query-subject separation and preservation regression",
+  "cases": [
+    {
+      "language": "en",
+      "question": "Compare historical and modern shipbuilding. Cite sources and explain OCR limitations.",
+      "query": "Shipbuilding techniques",
+      "expected_subject": "shipbuilding",
+      "passed": true,
+      "http_status": 200,
+      "provider_model": "gpt-6-astra-2026-09-03"
+    },
+    {
+      "language": "es",
+      "question": "Compara los sistemas históricos de reconocimiento óptico de caracteres con los sistemas OCR modernos. Cita fuentes.",
+      "query": "Optical character recognition",
+      "expected_subject": "optical character recognition",
+      "passed": true,
+      "http_status": 200,
+      "provider_model": "gpt-6-astra-2026-09-03"
+    }
+  ]
+}

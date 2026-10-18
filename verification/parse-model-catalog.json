@@ -1,0 +1,16 @@
+{
+  "duration_seconds": 0.38,
+  "parse": {
+    "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+    "available": true,
+    "capabilities": [
+      "parse"
+    ],
+    "id": "nemotron-parse-3.5",
+    "name": "nemotron-parse-3.5",
+    "object": "model",
+    "provider": "nvidia",
+    "upstream_model": "nvidia/nemotron-3.5-parse"
+  },
+  "checked_at": "2026-10-18T16:23:05.846563+00:00"
+}

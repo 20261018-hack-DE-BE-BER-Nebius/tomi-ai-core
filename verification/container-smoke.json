@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-18T16:27:34.083717+00:00",
+  "runtime": "Apple Container linux/arm64",
+  "image": "tomi-ai-core:20261018-final",
+  "manifest": "sha256:0382eee5c8a7ddc496143c116ed9595370d14a75dbaee6dd634d773f8380fd3b",
+  "read_only": true,
+  "capabilities_dropped": "ALL",
+  "health_status": 200,
+  "unauthenticated_models_status": 401,
+  "authenticated_models_status": 200,
+  "responses_unapproved_model_status": 400,
+  "model_count": 10,
+  "grpc_health_port_50051": "passed",
+  "grpc_get_models_same_http2_port_8081": "passed",
+  "running_native_services_unchanged": true
+}

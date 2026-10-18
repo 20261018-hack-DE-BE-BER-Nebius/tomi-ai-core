@@ -1,0 +1,8 @@
+{
+  "kind": "realtime",
+  "http_status": 200,
+  "duration_seconds": 0.3,
+  "ephemeral_secret_received": true,
+  "model": "gpt-realtime-2.1",
+  "expires_at": 1792345919
+}

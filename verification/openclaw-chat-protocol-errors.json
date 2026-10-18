@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-18T16:26:32.182097+00:00",
+  "method": "Direct replay of exact OpenClaw request bodies against configured Azure OpenAI-compatible provider; credentials and prompt bodies excluded",
+  "model": "gpt-6-astra",
+  "observations": [
+    {
+      "http_status": 400,
+      "case": "Function tools with default reasoning",
+      "provider_message": "Function tools with reasoning_effort are not supported for gpt-6-astra in /v1/chat/completions. To use function tools, use /v1/responses or set reasoning_effort to 'none'."
+    },
+    {
+      "http_status": 400,
+      "case": "Same function tools with explicit reasoning_effort none",
+      "provider_message": "Unsupported value: 'reasoning_effort' does not support 'none' with this model. Supported values are: 'low', 'medium', 'high', and 'xhigh'."
+    }
+  ],
+  "resolution": "OpenClaw configured to use /v1/responses for GPT models; core preserves caller-executed function tools and SSE"
+}

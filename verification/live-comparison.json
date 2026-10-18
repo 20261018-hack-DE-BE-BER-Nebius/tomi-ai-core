@@ -1,0 +1,2661 @@
+{
+  "http_status": 200,
+  "duration_seconds": 20.52,
+  "result": {
+    "answer": {
+      "blocks": [],
+      "categories": [
+        {
+          "description": "Retrieved excerpts with inspectable provenance",
+          "name": "Source evidence"
+        }
+      ],
+      "claims": null,
+      "evidence": [
+        {
+          "excerpt": "Britannica.com is the domain name of the main website of Encyclop\u00e6dia Britannica, which provides partial free access to the paid online edition of the encyclopaedia, titled Encyclopaedia Britannica. The paid edition is known as Britannica Academic, previously Britannica Online. It is published by Encyclop\u00e6dia Britannica, Inc., which is based in Chicago, Illinois.\n\nAs of 2025, Britannica.com had over 130,000 different entries covering a wide variety of topics. As of 2011, these articles have edit histories, providing a summary of information such as when the article was created, who has edited it, and when the article was last updated. The bottom of entries includes links to external websites. It includes search bar allowing navigation to specific entries.\n\nThe site has a rotating selection of articles prominently featured on the main page that are changed on a regular basis. As of 2011, it also includes access to multimedia including tens of thousands of images as well as thousands of videos, animations and audio clips. The website also includes a selection of online games. In 2000, in addition to the main encyclopedia text, Britannica.com was reported to include \"current news, an internet guide that ranks Websites, the Merriam-Webster Dictionary and additional tools\".\n\nBritannica was first launched online in 1994 as eb.com, which required a paid subscription to access, originally for institutions $1 per year per full time enrolled student, or slightly later $150 a year for individuals. While at launch the Britannica Online had all of the articles of its print counterpart, due to speed limitations of the early internet, early online versions of the Britannica were sparse in images and multimedia compared to the book and CD-ROM versions of the encyclopaedia. The 1994 launch happened at the end of several years of dramatic decline in sales of the print edition of the Britannica (which had dropped from 117,000 in 1990 to 51,000 in 1994), as well as other print encyclopedias, due to the emergence of competing electronic alternatives, such as the CD-ROM based Microsoft Encarta.\n\nIn 1999, the free website Britannica.com was launched, which contained the full text of t",
+          "id": "wikipedia:79821656",
+          "injection_flagged": false,
+          "revision_id": "1351961092",
+          "score": null,
+          "source": "modern",
+          "text_sha256": "7c41c49769374d29f4ae27c622d63e14c27d9824749c20a5899f49189f150611",
+          "title": "Britannica.com",
+          "untrusted": true,
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1351961092"
+        },
+        {
+          "excerpt": "Science information on Wikipedia includes the information that Wikipedia presents about science. There have been critiques of and discussions about the impact and quality of that information, and of the interactions of Wikipedia editors, scientists, and public engagement with the information.\n\nA 2016 study found evidence that Wikipedia increases the distribution and impact of open access science publications. A 2017 study found evidence that Wikipedia's popularity as the most popular general information source has influenced how everyone talks and writes about science. UNESCO reported in 2017 that Wikipedia is a popular source of science information because of its high ranking in search engines. A 2018 study examined the way that Wikipedia integrates new scientific information.\n\nIn 2016 the Wiki Education Foundation and the Simons Foundation presented an outreach program called the \"Year of Science\". In this program, Wikipedia educators visited academic conferences and invited scientists to contribute information from their field of expertise to Wikipedia. Some universities have programs to encourage students to edit Wikipedia's science articles as part of the learning experience. The Wikipedia community invites academics to edit Wikipedia articles. Various academic societies have encouraged their membership to edit Wikipedia.\n\nA study in 2017 determined that: \"Depending on the definition and methods used, roughly 10\u201320% of Wikipedia articles are on scientific topics (0.5\u20131.0 million out of about 5 million).\"\n\nWikipedia has a broad and diverse practice of citing scientific publications of all fields. A 2005 study published in the journal Nature compared 40 Wikipedia articles on science topics to their Encyclop\u00e6dia Britannica counterpart. Subject experts found four \"serious errors\" in each encyclopedia. They also found 162 less serious problems in Wikipedia, and 123 in Britannica. A popular science writer for Vice complained in 2017 that Wikipedia's science articles were too technical. Various scientists and media organizations have questioned and critiqued the extent to which Wikipedia articles on science influence political decisions relating to science.",
+          "id": "wikipedia:55547169",
+          "injection_flagged": false,
+          "revision_id": "1317133378",
+          "score": null,
+          "source": "modern",
+          "text_sha256": "35e22325fbef2a5e0ac1164be91931fd1f42645a8ae66ba3bbe82e5d960ef4e1",
+          "title": "Science information on Wikipedia",
+          "untrusted": true,
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1317133378"
+        },
+        {
+          "excerpt": "The reliability of Wikipedia and its volunteer-driven and community-regulated editing model, particularly its English-language edition, has been questioned and tested. Wikipedia is written and edited by volunteer editors (known as Wikipedians) who generate online content with the editorial oversight of other volunteer editors via community-generated policies and guidelines. The reliability of the project has been tested statistically through comparative review, analysis of the historical patterns, and strengths and weaknesses inherent in its editing process. The online encyclopedia has been criticized for its factual unreliability, principally regarding its content, presentation, and editorial processes. Studies and surveys attempting to gauge the reliability of Wikipedia have mixed results. Wikipedia's reliability was frequently criticized in the 2000s but has been improved; its English-language edition has been generally praised in the late 2010s and early 2020s.\n\nSelect assessments of its reliability have examined how quickly vandalism \u2014content perceived by editors to constitute false or misleading information\u2014is removed. Two years after the project was started, in 2003, an IBM study found that \"vandalism is usually repaired extremely quickly\u2014so quickly that most users will never see its effects\". The inclusion of false or fabricated content has, at times, lasted for years on Wikipedia due to its volunteer editorship. Its editing model facilitates multiple systemic biases, namely selection bias, inclusion bias, participation bias, and group-think bias. The majority of the encyclopedia is written by male editors, leading to a gender bias in coverage, and the make up of the editing community has prompted concerns about racial bias, spin bias, corporate bias, and national bias, among others. An ideological bias on Wikipedia has also been identified on both conscious and subconscious levels. A series of studies from Harvard Business School in 2012 and 2014 found Wikipedia \"significantly more biased\" than Encyclop\u00e6dia Britannica but attributed the finding more to the length of the online encyclopedia as opposed to slanted editing.\n\nInstances of non-neutral or conf",
+          "id": "wikipedia:6014851",
+          "injection_flagged": false,
+          "revision_id": "1351203163",
+          "score": null,
+          "source": "modern",
+          "text_sha256": "53a45ef4fbd0df987e7bb77199a6505cbafd74b9df4bfe055fa2559bd18cfa98",
+          "title": "Reliability of Wikipedia",
+          "untrusted": true,
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1351203163"
+        },
+        {
+          "excerpt": "Joseph Michael Reagle Jr. (born 1972) is an American academic and writer focused on digital technology and culture, including Wikipedia, online comments, geek feminism, and life hacking. He is an associate professor of communication studies at Northeastern University. He was an early member of the World Wide Web Consortium, based at the Massachusetts Institute of Technology, and in 1998 and 2010 he was a fellow at Harvard University 's Berkman Klein Center for Internet & Society.\n\nReagle received an undergraduate degree in computer science and a minor in history from the University of Maryland, Baltimore County. He then enrolled in the Technology Policy Program at the Massachusetts Institute of Technology and wrote a masters thesis on trust and cryptographic financial instruments. He returned to MIT as a research engineer, and also served as a fellow at the Berkman Klein Center for Internet and Society at Harvard University. He returned to schooling at New York University, where he taught, and earned a PhD in 2008 with a thesis about the history and collaborative culture of Wikipedia, supervised by Helen Nissenbaum.\n\nReagle was a member of the World Wide Web Consortium from 1996 to 2003. There he worked on issues such as intellectual property and privacy.\n\nIn 2002, he was listed as one of MIT Technology Review ' s TR35, a list of the world's top innovators under the age of 35.\n\nIn 2010, he reconstructed the first ten thousand contributions to Wikipedia from a previously lost data dump as a simple website. In 2011, Reagle published a journal article with Lauren Rhue that examined gender bias in Wikipedia, using gendered pronouns to detect articles about women and comparing and contrasting their findings against female coverage in other encyclopedias. The article concluded \"that Wikipedia provides better coverage and longer articles, that Wikipedia typically has more articles on women than Britannica in absolute terms, but Wikipedia articles on women are more likely to be missing than articles on men relative to Britannica\".\n\nReagle is a supporter of open access and all of his books are available online.",
+          "id": "wikipedia:32606333",
+          "injection_flagged": false,
+          "revision_id": "1320737032",
+          "score": null,
+          "source": "modern",
+          "text_sha256": "8af0ab8a41eb1b52936274eb418976ec5239e2b18cec4caa3dd98f2f348a3aa1",
+          "title": "Joseph Reagle",
+          "untrusted": true,
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1320737032"
+        },
+        {
+          "excerpt": "Jorge Aguilar Cauz is an American businessman of Mexican descent and the former President and current CEO of Encyclop\u00e6dia Britannica Inc., the publisher of the Encyclop\u00e6dia Britannica, a position that he was appointed to on May 11, 2021.\n\nCauz is a graduate of the Kellogg Graduate School of Management of Northwestern University, and prior to joining Britannica, he served as a management consultant for Andersen Consulting and A.T. Kearney.\n\nCauz was hired by Britannica as a consultant in 1999, and then would later serve a variety of executive positions (including senior vice president of international operations, and chief operating officer of Internet operations) prior to his appointment as president. During that time, he played a key role in the company's marketing strategies, including the publication of all-digital editions of the Encyclop\u00e6dia Britannica.\n\nOne of the key aspects of Cauz's tenure was the emergence of the Internet as both an opportunity and a threat in the encyclopedia business. In a 2000 interview, Cauz remarked that in an Internet-dominated market, \"you have to be free to be relevant\". Britannica has, in that time, introduced a free (albeit abridged) online version of the encyclopedia, as well as online subscriptions for readers willing to pay for unabridged content. Since his tenure, it is believed that Britannica has succeeded in transitioning its business model into that of a digital publisher and while its revenues are lower, Britannica has been profitable since 2004.\n\nIn 2018, Cauz became \"an advisor\" to Britannica. From 2018 until 2021, he managed a family fund, was a board member of Britannica Knowledge Systems, and a member of the board of the Encyclopaedia Britannica Group.\n\nSince May 11, 2021, when Cauz was named Encyclopaedia Britannica CEO, he has diversified the company into an educational company by extending the product portfolio with a wide range of K-12 educational solutions and consumer educational games under the Britannica and Merriam-Webster brands.\n\nDuring Cauz's tenure, officials from Britannica have become outspoken in their criticism of Wikipedia, which many (including critics) view as a significant competitive threat",
+          "id": "wikipedia:6146124",
+          "injection_flagged": false,
+          "revision_id": "1294979891",
+          "score": null,
+          "source": "modern",
+          "text_sha256": "d8cd0151a9454c2a52c4783feefbbfe66a5311a5594b5cd390c115c1d7084b29",
+          "title": "Jorge Cauz",
+          "untrusted": true,
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1294979891"
+        },
+        {
+          "excerpt": "On Wikipedia, ideological bias, especially in its English-language edition, has been the subject of academic analysis and public criticism of the project.\n\nThe English Wikipedia has an internal policy which states that articles must be written from a neutral point of view, which has the goal of representing fairly, proportionately, and without bias, the significant points of view that have been verifiably published by reliable sources on a topic. The site has been accused of left-wing bias and hostility toward the political right, as well as of promoting ethnonationalism and holocaust denial.\n\nCollectively, findings show that Wikipedia articles edited by large numbers of editors with opposing ideological views are at least as neutral as other similar sources, but articles with smaller edit volumes by fewer\u2014or more ideologically homogeneous\u2014contributors are more likely to reflect the editorial bias of those contributing.\n\nResearch shows that Wikipedia is prone to neutrality violations caused by bias from its editors, including systemic bias. A comprehensive study conducted on ten different versions of Wikipedia revealed that disputes among editors predominantly arise on the subject of politics, encompassing politicians, political parties, political movements, and ideologies. These political topics accounted for approximately 25% of the disputes observed across all language versions studied.\n\nA 2012 study by Shane Greenstein and Feng Zhu of the Harvard Business School examined a sample of 28,382 articles related to U.S. politics as of January 2011, measuring their degree of bias on a \"slant index\" based on a method developed by Matthew Gentzkow and Jesse M. Shapiro in 2010, to measure bias in newspaper media. This slant index purports to measure an ideological lean toward either the Democratic or Republican parties, based on key phrases within the text such as \"war in Iraq\", \"civil rights\", \"trade deficit\", \"economic growth\", \"illegal immigration\" and \"border security\". Each phrase is assigned a slant index based on how often it is used by Democratic or Republican members of U.S. Congress. This lean rating is assigned to a Wikipedia contribution that includes the ",
+          "id": "wikipedia:57481814",
+          "injection_flagged": false,
+          "revision_id": "1353775376",
+          "score": null,
+          "source": "modern",
+          "text_sha256": "91bc145e738fb44fe58fa79a62dc91b0f6ea1a3d5be29b4f0be740d8d5ba3370",
+          "title": "Ideological bias on Wikipedia",
+          "untrusted": true,
+          "url": "https://en.wikipedia.org/w/index.php?oldid=1353775376"
+        }
+      ],
+      "language": "en",
+      "metrics": {
+        "historical_top_words": [
+          [
+            "the",
+            100
+          ],
+          [
+            "of",
+            74
+          ],
+          [
+            "and",
+            45
+          ],
+          [
+            "in",
+            43
+          ],
+          [
+            "to",
+            34
+          ],
+          [
+            "his",
+            30
+          ],
+          [
+            "he",
+            30
+          ],
+          [
+            "a",
+            24
+          ],
+          [
+            "is",
+            22
+          ],
+          [
+            "was",
+            21
+          ],
+          [
+            "x",
+            16
+          ],
+          [
+            "y",
+            16
+          ],
+          [
+            "for",
+            15
+          ],
+          [
+            "it",
+            14
+          ],
+          [
+            "that",
+            11
+          ]
+        ],
+        "historical_words": 1337,
+        "interpretation": "Lexical differences alone do not establish a change in factual knowledge.",
+        "jensen_shannon_divergence": 0.5406082015303254,
+        "modern_top_words": [
+          [
+            "the",
+            99
+          ],
+          [
+            "of",
+            62
+          ],
+          [
+            "britannica",
+            53
+          ],
+          [
+            "to",
+            44
+          ],
+          [
+            "and",
+            39
+          ],
+          [
+            "in",
+            35
+          ],
+          [
+            "a",
+            34
+          ],
+          [
+            "as",
+            30
+          ],
+          [
+            "it",
+            20
+          ],
+          [
+            "was",
+            20
+          ],
+          [
+            "com",
+            16
+          ],
+          [
+            "which",
+            15
+          ],
+          [
+            "online",
+            15
+          ],
+          [
+            "on",
+            15
+          ],
+          [
+            "by",
+            14
+          ]
+        ],
+        "modern_words": 1408,
+        "vocabulary_jaccard": 0.10914454277286136
+      },
+      "model": "gpt-6-astra",
+      "summary": "**The supplied evidence does not support a comparison of shipbuilding techniques in historical Britannica and modern Wikipedia.** It contains no shipbuilding passages and no historical Britannica article.\n\nThe sources instead discuss Britannica\u2019s website and Wikipedia\u2019s general scientific coverage and reliability. These cannot establish what either encyclopedia says about ship construction. [wikipedia:79821656] [wikipedia:55547169] [wikipedia:6014851]\n\nA supported comparison would distinguish:\n\n| Dimension | What to compare |\n|---|---|\n| **Vocabulary** | Whether different terms describe the same materials, hull components, or construction processes\u2014rather than a genuine technical change. |\n| **Factual knowledge and technology** | Which construction methods each text describes, and whether differences reflect later technological developments or revised historical knowledge. |\n| **Perspective** | Which shipbuilding traditions, regions, workers, and industrial priorities each account emphasizes or omits. |\n\nPlease supply a **dated historical Britannica shipbuilding excerpt** and a **modern Wikipedia shipbuilding excerpt**. Without those, claims about differences in their treatment of wooden construction, riveting, welding, or modular assembly would be speculative.",
+      "title": "Compare shipbuilding techniques across Britannica and Wikipedia",
+      "uncertainty": [
+        "Historical page selected by lexical overlap; semantic selection unavailable.",
+        "Lexical baseline only: Nemotron semantic matching has not completed.",
+        "Retrieved evidence does not yet cover both collections sufficiently."
+      ]
+    },
+    "traces": [
+      {
+        "data": {
+          "model": "gpt-6-astra",
+          "request_id": "run-1"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:50:52.981299+00:00",
+        "type": "run.started"
+      },
+      {
+        "data": {
+          "arguments": {
+            "locale": "en",
+            "question": "Compare shipbuilding techniques across Britannica and Wikipedia"
+          },
+          "name": "hermes.retrieve"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:50:52.981310+00:00",
+        "type": "tool.started"
+      },
+      {
+        "data": {
+          "blockers": [
+            "v1/embeddings: HTTP 503"
+          ],
+          "name": "hermes.retrieve",
+          "sources": 6,
+          "status": "partial",
+          "traces": [
+            {
+              "duration_ms": 3004,
+              "error": "v1/embeddings: HTTP 503",
+              "occurred_at": "2026-10-18T15:50:55.990941+00:00",
+              "status": "failed",
+              "tool": "nemotron.embed.query"
+            },
+            {
+              "duration_ms": 272,
+              "occurred_at": "2026-10-18T15:50:56.266661+00:00",
+              "status": "completed",
+              "tool": "wikipedia.search"
+            },
+            {
+              "duration_ms": 586,
+              "occurred_at": "2026-10-18T15:50:56.852564+00:00",
+              "status": "completed",
+              "tool": "wikipedia.article"
+            },
+            {
+              "duration_ms": 677,
+              "occurred_at": "2026-10-18T15:50:57.537320+00:00",
+              "status": "completed",
+              "tool": "wikipedia.article"
+            },
+            {
+              "duration_ms": 2910,
+              "occurred_at": "2026-10-18T15:51:00.452718+00:00",
+              "status": "completed",
+              "tool": "wikipedia.article"
+            },
+            {
+              "duration_ms": 534,
+              "occurred_at": "2026-10-18T15:51:00.991402+00:00",
+              "status": "completed",
+              "tool": "wikipedia.article"
+            },
+            {
+              "duration_ms": 505,
+              "occurred_at": "2026-10-18T15:51:01.506345+00:00",
+              "status": "completed",
+              "tool": "wikipedia.article"
+            },
+            {
+              "duration_ms": 1089,
+              "occurred_at": "2026-10-18T15:51:02.654255+00:00",
+              "status": "completed",
+              "tool": "wikipedia.article"
+            },
+            {
+              "duration_ms": 644,
+              "occurred_at": "2026-10-18T15:51:03.325192+00:00",
+              "status": "completed",
+              "tool": "wikipedia.article"
+            },
+            {
+              "duration_ms": 2378,
+              "occurred_at": "2026-10-18T15:51:05.708963+00:00",
+              "status": "completed",
+              "tool": "wikipedia.article"
+            },
+            {
+              "duration_ms": 3017,
+              "error": "v1/embeddings: HTTP 503",
+              "occurred_at": "2026-10-18T15:51:08.732890+00:00",
+              "status": "failed",
+              "tool": "nemotron.embed.document"
+            }
+          ]
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:08.737862+00:00",
+        "type": "tool.completed"
+      },
+      {
+        "data": {
+          "model": "gpt-6-astra",
+          "name": "model.chat",
+          "source_count": 6
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:08.738338+00:00",
+        "type": "tool.started"
+      },
+      {
+        "data": {
+          "text": ""
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:09.592442+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "**"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111455+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "The"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111500+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " supplied"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111520+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " evidence"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111539+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " does"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111557+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " not"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111575+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " support"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111593+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " a"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111611+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " comparison"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111629+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " of"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111645+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " ship"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111719+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "building"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111742+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " techniques"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111798+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " in"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111820+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " historical"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111838+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Britannica"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111856+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " and"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111884+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " modern"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.111904+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Wikipedia"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.112057+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "."
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.112105+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "**"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.112243+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " It"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.112272+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " contains"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.112290+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " no"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.112307+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " ship"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.112327+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "building"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.112361+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " passages"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.416865+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " and"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.416923+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " no"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.416952+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " historical"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.416981+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Britannica"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417009+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " article"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417036+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ".\n\n"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417065+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "The"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417092+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " sources"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417120+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " instead"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417148+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " discuss"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417176+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Britannica"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417204+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "\u2019s"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417232+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " website"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417261+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " and"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417290+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Wikipedia"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417318+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "\u2019s"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417346+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " general"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417375+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " scientific"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417404+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " coverage"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417433+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " and"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417465+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " reliability"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.417495+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "."
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842551+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " These"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842601+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " cannot"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842618+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " establish"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842634+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " what"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842650+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " either"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842665+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " encyclopedia"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842680+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " says"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842695+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " about"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842777+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " ship"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842797+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " construction"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842813+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "."
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842827+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " ["
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842843+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "w"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842858+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "ikipedia"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842873+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ":"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842887+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "798"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842902+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "216"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842917+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "56"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842932+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "]"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842947+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " ["
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.842963+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "w"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843029+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "ikipedia"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843048+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ":"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843065+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "555"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843080+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "471"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843094+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "69"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843109+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "]"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843124+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " ["
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843139+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "w"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843154+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "ikipedia"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843168+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ":"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843184+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "601"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843237+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "485"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843256+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "1"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843271+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "]\n\n"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843288+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "A"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843302+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " supported"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:10.843317+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " comparison"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470660+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " would"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470702+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " distinguish"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470722+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ":\n\n"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470744+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "|"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470761+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Dimension"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470778+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " |"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470792+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " What"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470805+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " to"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470819+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " compare"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470831+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " |\n"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470846+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "|"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470860+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "---"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470873+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "|"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470886+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "---"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470968+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "|\n"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.470986+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "|"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " **"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471012+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "Vocabulary"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471026+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "**"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471038+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " |"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471050+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Whether"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471063+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " different"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471076+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " terms"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471089+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " describe"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471101+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " the"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471114+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " same"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471127+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " materials"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471140+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471153+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " hull"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.471165+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " components"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987129+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987169+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " or"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987184+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " construction"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987197+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " processes"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987209+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "\u2014"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987221+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "rather"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987233+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " than"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987243+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " a"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987283+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " genuine"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987295+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " technical"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987306+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " change"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987318+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "."
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987362+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " |\n"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987386+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "|"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987401+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " **"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987948+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "F"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987968+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "actual"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987981+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " knowledge"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.987994+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " and"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.988006+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " technology"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.988018+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "**"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.988029+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " |"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.988041+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Which"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.988053+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " construction"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.988064+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " methods"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.988076+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " each"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:11.988088+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " text"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434572+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " describes"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434608+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434621+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " and"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434635+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " whether"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434648+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " differences"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434659+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " reflect"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434672+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " later"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434686+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " technological"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434701+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " developments"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434712+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " or"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434722+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " revised"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434734+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " historical"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434748+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " knowledge"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434763+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "."
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434776+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " |\n"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434787+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "|"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434798+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " **"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434809+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "Perspective"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434820+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "**"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434831+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " |"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434842+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Which"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434852+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " ship"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434863+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "building"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.434874+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " traditions"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551326+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551365+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " regions"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551386+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551404+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " workers"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551419+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551432+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " and"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551444+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " industrial"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551456+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " priorities"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551468+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " each"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551483+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " account"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.551505+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " emphasizes"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.978858+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " or"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.978909+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " om"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.978929+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "its"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.978948+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "."
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.978967+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " |\n\n"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.978987+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "Please"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.979007+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " supply"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.979027+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " a"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.979046+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " **"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.979064+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "dated"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.979085+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " historical"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.979104+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Britannica"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.979123+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " ship"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.979143+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "building"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:12.979163+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " excerpt"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451328+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "**"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451391+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " and"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451419+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " a"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451443+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " **"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451464+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "modern"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451483+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Wikipedia"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451503+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " ship"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451522+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "building"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451542+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " excerpt"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451561+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "**"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451580+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "."
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451600+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " Without"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451619+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " those"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451639+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451658+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " claims"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451677+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " about"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451699+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " differences"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451719+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " in"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451738+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " their"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451758+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " treatment"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451777+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " of"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451796+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " wooden"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451815+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " construction"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451834+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451882+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " riveting"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.451902+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478623+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " welding"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478684+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": ","
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478710+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " or"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478730+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " modular"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478750+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " assembly"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478772+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " would"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478791+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " be"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478810+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": " speculative"
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478829+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "text": "."
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478848+00:00",
+        "type": "answer.delta"
+      },
+      {
+        "data": {
+          "model": "gpt-6-astra",
+          "name": "model.chat",
+          "output_characters": 1281
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.478951+00:00",
+        "type": "tool.completed"
+      },
+      {
+        "data": {
+          "blocks": [],
+          "categories": [
+            {
+              "description": "Retrieved excerpts with inspectable provenance",
+              "name": "Source evidence"
+            }
+          ],
+          "claims": null,
+          "evidence": [
+            {
+              "excerpt": "Britannica.com is the domain name of the main website of Encyclop\u00e6dia Britannica, which provides partial free access to the paid online edition of the encyclopaedia, titled Encyclopaedia Britannica. The paid edition is known as Britannica Academic, previously Britannica Online. It is published by Encyclop\u00e6dia Britannica, Inc., which is based in Chicago, Illinois.\n\nAs of 2025, Britannica.com had over 130,000 different entries covering a wide variety of topics. As of 2011, these articles have edit histories, providing a summary of information such as when the article was created, who has edited it, and when the article was last updated. The bottom of entries includes links to external websites. It includes search bar allowing navigation to specific entries.\n\nThe site has a rotating selection of articles prominently featured on the main page that are changed on a regular basis. As of 2011, it also includes access to multimedia including tens of thousands of images as well as thousands of videos, animations and audio clips. The website also includes a selection of online games. In 2000, in addition to the main encyclopedia text, Britannica.com was reported to include \"current news, an internet guide that ranks Websites, the Merriam-Webster Dictionary and additional tools\".\n\nBritannica was first launched online in 1994 as eb.com, which required a paid subscription to access, originally for institutions $1 per year per full time enrolled student, or slightly later $150 a year for individuals. While at launch the Britannica Online had all of the articles of its print counterpart, due to speed limitations of the early internet, early online versions of the Britannica were sparse in images and multimedia compared to the book and CD-ROM versions of the encyclopaedia. The 1994 launch happened at the end of several years of dramatic decline in sales of the print edition of the Britannica (which had dropped from 117,000 in 1990 to 51,000 in 1994), as well as other print encyclopedias, due to the emergence of competing electronic alternatives, such as the CD-ROM based Microsoft Encarta.\n\nIn 1999, the free website Britannica.com was launched, which contained the full text of t",
+              "id": "wikipedia:79821656",
+              "injection_flagged": false,
+              "revision_id": "1351961092",
+              "score": null,
+              "source": "modern",
+              "text_sha256": "7c41c49769374d29f4ae27c622d63e14c27d9824749c20a5899f49189f150611",
+              "title": "Britannica.com",
+              "untrusted": true,
+              "url": "https://en.wikipedia.org/w/index.php?oldid=1351961092"
+            },
+            {
+              "excerpt": "Science information on Wikipedia includes the information that Wikipedia presents about science. There have been critiques of and discussions about the impact and quality of that information, and of the interactions of Wikipedia editors, scientists, and public engagement with the information.\n\nA 2016 study found evidence that Wikipedia increases the distribution and impact of open access science publications. A 2017 study found evidence that Wikipedia's popularity as the most popular general information source has influenced how everyone talks and writes about science. UNESCO reported in 2017 that Wikipedia is a popular source of science information because of its high ranking in search engines. A 2018 study examined the way that Wikipedia integrates new scientific information.\n\nIn 2016 the Wiki Education Foundation and the Simons Foundation presented an outreach program called the \"Year of Science\". In this program, Wikipedia educators visited academic conferences and invited scientists to contribute information from their field of expertise to Wikipedia. Some universities have programs to encourage students to edit Wikipedia's science articles as part of the learning experience. The Wikipedia community invites academics to edit Wikipedia articles. Various academic societies have encouraged their membership to edit Wikipedia.\n\nA study in 2017 determined that: \"Depending on the definition and methods used, roughly 10\u201320% of Wikipedia articles are on scientific topics (0.5\u20131.0 million out of about 5 million).\"\n\nWikipedia has a broad and diverse practice of citing scientific publications of all fields. A 2005 study published in the journal Nature compared 40 Wikipedia articles on science topics to their Encyclop\u00e6dia Britannica counterpart. Subject experts found four \"serious errors\" in each encyclopedia. They also found 162 less serious problems in Wikipedia, and 123 in Britannica. A popular science writer for Vice complained in 2017 that Wikipedia's science articles were too technical. Various scientists and media organizations have questioned and critiqued the extent to which Wikipedia articles on science influence political decisions relating to science.",
+              "id": "wikipedia:55547169",
+              "injection_flagged": false,
+              "revision_id": "1317133378",
+              "score": null,
+              "source": "modern",
+              "text_sha256": "35e22325fbef2a5e0ac1164be91931fd1f42645a8ae66ba3bbe82e5d960ef4e1",
+              "title": "Science information on Wikipedia",
+              "untrusted": true,
+              "url": "https://en.wikipedia.org/w/index.php?oldid=1317133378"
+            },
+            {
+              "excerpt": "The reliability of Wikipedia and its volunteer-driven and community-regulated editing model, particularly its English-language edition, has been questioned and tested. Wikipedia is written and edited by volunteer editors (known as Wikipedians) who generate online content with the editorial oversight of other volunteer editors via community-generated policies and guidelines. The reliability of the project has been tested statistically through comparative review, analysis of the historical patterns, and strengths and weaknesses inherent in its editing process. The online encyclopedia has been criticized for its factual unreliability, principally regarding its content, presentation, and editorial processes. Studies and surveys attempting to gauge the reliability of Wikipedia have mixed results. Wikipedia's reliability was frequently criticized in the 2000s but has been improved; its English-language edition has been generally praised in the late 2010s and early 2020s.\n\nSelect assessments of its reliability have examined how quickly vandalism \u2014content perceived by editors to constitute false or misleading information\u2014is removed. Two years after the project was started, in 2003, an IBM study found that \"vandalism is usually repaired extremely quickly\u2014so quickly that most users will never see its effects\". The inclusion of false or fabricated content has, at times, lasted for years on Wikipedia due to its volunteer editorship. Its editing model facilitates multiple systemic biases, namely selection bias, inclusion bias, participation bias, and group-think bias. The majority of the encyclopedia is written by male editors, leading to a gender bias in coverage, and the make up of the editing community has prompted concerns about racial bias, spin bias, corporate bias, and national bias, among others. An ideological bias on Wikipedia has also been identified on both conscious and subconscious levels. A series of studies from Harvard Business School in 2012 and 2014 found Wikipedia \"significantly more biased\" than Encyclop\u00e6dia Britannica but attributed the finding more to the length of the online encyclopedia as opposed to slanted editing.\n\nInstances of non-neutral or conf",
+              "id": "wikipedia:6014851",
+              "injection_flagged": false,
+              "revision_id": "1351203163",
+              "score": null,
+              "source": "modern",
+              "text_sha256": "53a45ef4fbd0df987e7bb77199a6505cbafd74b9df4bfe055fa2559bd18cfa98",
+              "title": "Reliability of Wikipedia",
+              "untrusted": true,
+              "url": "https://en.wikipedia.org/w/index.php?oldid=1351203163"
+            },
+            {
+              "excerpt": "Joseph Michael Reagle Jr. (born 1972) is an American academic and writer focused on digital technology and culture, including Wikipedia, online comments, geek feminism, and life hacking. He is an associate professor of communication studies at Northeastern University. He was an early member of the World Wide Web Consortium, based at the Massachusetts Institute of Technology, and in 1998 and 2010 he was a fellow at Harvard University 's Berkman Klein Center for Internet & Society.\n\nReagle received an undergraduate degree in computer science and a minor in history from the University of Maryland, Baltimore County. He then enrolled in the Technology Policy Program at the Massachusetts Institute of Technology and wrote a masters thesis on trust and cryptographic financial instruments. He returned to MIT as a research engineer, and also served as a fellow at the Berkman Klein Center for Internet and Society at Harvard University. He returned to schooling at New York University, where he taught, and earned a PhD in 2008 with a thesis about the history and collaborative culture of Wikipedia, supervised by Helen Nissenbaum.\n\nReagle was a member of the World Wide Web Consortium from 1996 to 2003. There he worked on issues such as intellectual property and privacy.\n\nIn 2002, he was listed as one of MIT Technology Review ' s TR35, a list of the world's top innovators under the age of 35.\n\nIn 2010, he reconstructed the first ten thousand contributions to Wikipedia from a previously lost data dump as a simple website. In 2011, Reagle published a journal article with Lauren Rhue that examined gender bias in Wikipedia, using gendered pronouns to detect articles about women and comparing and contrasting their findings against female coverage in other encyclopedias. The article concluded \"that Wikipedia provides better coverage and longer articles, that Wikipedia typically has more articles on women than Britannica in absolute terms, but Wikipedia articles on women are more likely to be missing than articles on men relative to Britannica\".\n\nReagle is a supporter of open access and all of his books are available online.",
+              "id": "wikipedia:32606333",
+              "injection_flagged": false,
+              "revision_id": "1320737032",
+              "score": null,
+              "source": "modern",
+              "text_sha256": "8af0ab8a41eb1b52936274eb418976ec5239e2b18cec4caa3dd98f2f348a3aa1",
+              "title": "Joseph Reagle",
+              "untrusted": true,
+              "url": "https://en.wikipedia.org/w/index.php?oldid=1320737032"
+            },
+            {
+              "excerpt": "Jorge Aguilar Cauz is an American businessman of Mexican descent and the former President and current CEO of Encyclop\u00e6dia Britannica Inc., the publisher of the Encyclop\u00e6dia Britannica, a position that he was appointed to on May 11, 2021.\n\nCauz is a graduate of the Kellogg Graduate School of Management of Northwestern University, and prior to joining Britannica, he served as a management consultant for Andersen Consulting and A.T. Kearney.\n\nCauz was hired by Britannica as a consultant in 1999, and then would later serve a variety of executive positions (including senior vice president of international operations, and chief operating officer of Internet operations) prior to his appointment as president. During that time, he played a key role in the company's marketing strategies, including the publication of all-digital editions of the Encyclop\u00e6dia Britannica.\n\nOne of the key aspects of Cauz's tenure was the emergence of the Internet as both an opportunity and a threat in the encyclopedia business. In a 2000 interview, Cauz remarked that in an Internet-dominated market, \"you have to be free to be relevant\". Britannica has, in that time, introduced a free (albeit abridged) online version of the encyclopedia, as well as online subscriptions for readers willing to pay for unabridged content. Since his tenure, it is believed that Britannica has succeeded in transitioning its business model into that of a digital publisher and while its revenues are lower, Britannica has been profitable since 2004.\n\nIn 2018, Cauz became \"an advisor\" to Britannica. From 2018 until 2021, he managed a family fund, was a board member of Britannica Knowledge Systems, and a member of the board of the Encyclopaedia Britannica Group.\n\nSince May 11, 2021, when Cauz was named Encyclopaedia Britannica CEO, he has diversified the company into an educational company by extending the product portfolio with a wide range of K-12 educational solutions and consumer educational games under the Britannica and Merriam-Webster brands.\n\nDuring Cauz's tenure, officials from Britannica have become outspoken in their criticism of Wikipedia, which many (including critics) view as a significant competitive threat",
+              "id": "wikipedia:6146124",
+              "injection_flagged": false,
+              "revision_id": "1294979891",
+              "score": null,
+              "source": "modern",
+              "text_sha256": "d8cd0151a9454c2a52c4783feefbbfe66a5311a5594b5cd390c115c1d7084b29",
+              "title": "Jorge Cauz",
+              "untrusted": true,
+              "url": "https://en.wikipedia.org/w/index.php?oldid=1294979891"
+            },
+            {
+              "excerpt": "On Wikipedia, ideological bias, especially in its English-language edition, has been the subject of academic analysis and public criticism of the project.\n\nThe English Wikipedia has an internal policy which states that articles must be written from a neutral point of view, which has the goal of representing fairly, proportionately, and without bias, the significant points of view that have been verifiably published by reliable sources on a topic. The site has been accused of left-wing bias and hostility toward the political right, as well as of promoting ethnonationalism and holocaust denial.\n\nCollectively, findings show that Wikipedia articles edited by large numbers of editors with opposing ideological views are at least as neutral as other similar sources, but articles with smaller edit volumes by fewer\u2014or more ideologically homogeneous\u2014contributors are more likely to reflect the editorial bias of those contributing.\n\nResearch shows that Wikipedia is prone to neutrality violations caused by bias from its editors, including systemic bias. A comprehensive study conducted on ten different versions of Wikipedia revealed that disputes among editors predominantly arise on the subject of politics, encompassing politicians, political parties, political movements, and ideologies. These political topics accounted for approximately 25% of the disputes observed across all language versions studied.\n\nA 2012 study by Shane Greenstein and Feng Zhu of the Harvard Business School examined a sample of 28,382 articles related to U.S. politics as of January 2011, measuring their degree of bias on a \"slant index\" based on a method developed by Matthew Gentzkow and Jesse M. Shapiro in 2010, to measure bias in newspaper media. This slant index purports to measure an ideological lean toward either the Democratic or Republican parties, based on key phrases within the text such as \"war in Iraq\", \"civil rights\", \"trade deficit\", \"economic growth\", \"illegal immigration\" and \"border security\". Each phrase is assigned a slant index based on how often it is used by Democratic or Republican members of U.S. Congress. This lean rating is assigned to a Wikipedia contribution that includes the ",
+              "id": "wikipedia:57481814",
+              "injection_flagged": false,
+              "revision_id": "1353775376",
+              "score": null,
+              "source": "modern",
+              "text_sha256": "91bc145e738fb44fe58fa79a62dc91b0f6ea1a3d5be29b4f0be740d8d5ba3370",
+              "title": "Ideological bias on Wikipedia",
+              "untrusted": true,
+              "url": "https://en.wikipedia.org/w/index.php?oldid=1353775376"
+            }
+          ],
+          "language": "en",
+          "metrics": {
+            "historical_top_words": [
+              [
+                "the",
+                100
+              ],
+              [
+                "of",
+                74
+              ],
+              [
+                "and",
+                45
+              ],
+              [
+                "in",
+                43
+              ],
+              [
+                "to",
+                34
+              ],
+              [
+                "his",
+                30
+              ],
+              [
+                "he",
+                30
+              ],
+              [
+                "a",
+                24
+              ],
+              [
+                "is",
+                22
+              ],
+              [
+                "was",
+                21
+              ],
+              [
+                "x",
+                16
+              ],
+              [
+                "y",
+                16
+              ],
+              [
+                "for",
+                15
+              ],
+              [
+                "it",
+                14
+              ],
+              [
+                "that",
+                11
+              ]
+            ],
+            "historical_words": 1337,
+            "interpretation": "Lexical differences alone do not establish a change in factual knowledge.",
+            "jensen_shannon_divergence": 0.5406082015303254,
+            "modern_top_words": [
+              [
+                "the",
+                99
+              ],
+              [
+                "of",
+                62
+              ],
+              [
+                "britannica",
+                53
+              ],
+              [
+                "to",
+                44
+              ],
+              [
+                "and",
+                39
+              ],
+              [
+                "in",
+                35
+              ],
+              [
+                "a",
+                34
+              ],
+              [
+                "as",
+                30
+              ],
+              [
+                "it",
+                20
+              ],
+              [
+                "was",
+                20
+              ],
+              [
+                "com",
+                16
+              ],
+              [
+                "which",
+                15
+              ],
+              [
+                "online",
+                15
+              ],
+              [
+                "on",
+                15
+              ],
+              [
+                "by",
+                14
+              ]
+            ],
+            "modern_words": 1408,
+            "vocabulary_jaccard": 0.10914454277286136
+          },
+          "model": "gpt-6-astra",
+          "summary": "**The supplied evidence does not support a comparison of shipbuilding techniques in historical Britannica and modern Wikipedia.** It contains no shipbuilding passages and no historical Britannica article.\n\nThe sources instead discuss Britannica\u2019s website and Wikipedia\u2019s general scientific coverage and reliability. These cannot establish what either encyclopedia says about ship construction. [wikipedia:79821656] [wikipedia:55547169] [wikipedia:6014851]\n\nA supported comparison would distinguish:\n\n| Dimension | What to compare |\n|---|---|\n| **Vocabulary** | Whether different terms describe the same materials, hull components, or construction processes\u2014rather than a genuine technical change. |\n| **Factual knowledge and technology** | Which construction methods each text describes, and whether differences reflect later technological developments or revised historical knowledge. |\n| **Perspective** | Which shipbuilding traditions, regions, workers, and industrial priorities each account emphasizes or omits. |\n\nPlease supply a **dated historical Britannica shipbuilding excerpt** and a **modern Wikipedia shipbuilding excerpt**. Without those, claims about differences in their treatment of wooden construction, riveting, welding, or modular assembly would be speculative.",
+          "title": "Compare shipbuilding techniques across Britannica and Wikipedia",
+          "uncertainty": [
+            "Historical page selected by lexical overlap; semantic selection unavailable.",
+            "Lexical baseline only: Nemotron semantic matching has not completed.",
+            "Retrieved evidence does not yet cover both collections sufficiently."
+          ]
+        },
+        "run_id": "fd96eb8b-bbf4-416f-81b3-8ce5b6f9035e",
+        "session_id": "core-live-source-test",
+        "timestamp": "2026-10-18T15:51:13.479073+00:00",
+        "type": "answer.completed"
+      }
+    ]
+  }
+}
