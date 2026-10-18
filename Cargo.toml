@@ -6,7 +6,7 @@ default-run = "tomi-ai-core"
 
 [dependencies]
 axum = { version = "0.8", features = ["ws", "macros", "http2"] }
-base64 = "0.22"
+base64 = "0.23"
 chrono = { version = "0.4", features = ["serde"] }
 dotenvy = "0.15"
 futures-util = "0.3"
