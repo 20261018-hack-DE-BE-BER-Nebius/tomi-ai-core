@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-10-18T17:31:23.165503+00:00",
+  "service": "tomi-ai-core",
+  "secret_references": {
+    "NEMOTRON_EMBED_API_KEY": "nv-embed",
+    "NEMOTRON_RERANK_API_KEY": "nv-rerank"
+  },
+  "vault": "kv-core-2610181730",
+  "identity": "id-tomi-ai-core",
+  "public_settings": {
+    "NEMOTRON_EMBED_BASE_URL": "https://port8000-bxz0yk5hx2b8vyp.tunnel.applications.uk-south2.nebius.cloud/v1",
+    "NEMOTRON_EMBED_AUTH_HEADER": "bearer",
+    "NEMOTRON_RERANK_BASE_URL": "https://port8000-bxz0yk5hx2b8vyp.tunnel.applications.uk-south2.nebius.cloud/v1",
+    "NEMOTRON_RERANK_AUTH_HEADER": "bearer"
+  },
+  "provider_secret_in_argv_or_logs": false,
+  "terraform_runtime_core_fields_synchronized": true,
+  "other_service_tokens_rotated": false
+}

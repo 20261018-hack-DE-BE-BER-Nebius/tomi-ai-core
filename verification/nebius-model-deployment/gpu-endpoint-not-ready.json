@@ -1,0 +1,15 @@
+{
+  "observed_at": "2026-10-18T17:28:32.857368+00:00",
+  "endpoint_id": "aiendpoint-e05f3e78pdnqnrgf9g",
+  "endpoint_state": "IMAGE_PULLING",
+  "urls": [
+    "https://port8000-bxz0yk5hx2b8vyp.tunnel.applications.uk-south2.nebius.cloud"
+  ],
+  "ready": {
+    "http": 404,
+    "seconds": 0.128,
+    "body": {
+      "non_json_bytes": 10
+    }
+  }
+}

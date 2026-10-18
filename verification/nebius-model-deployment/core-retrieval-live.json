@@ -1,0 +1,204 @@
+{
+  "observed_at": "2026-10-18T17:30:46.772211+00:00",
+  "via": "native Rust core",
+  "provider_receipt": "gpu-models-live.json",
+  "ready": {
+    "http": 200,
+    "seconds": 0.358,
+    "body": {
+      "checked_at": "2026-10-18T17:30:47.128820+00:00",
+      "data": [
+        {
+          "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+          "available": true,
+          "capabilities": [
+            "chat"
+          ],
+          "id": "gpt-6-astra",
+          "name": "gpt-6-astra",
+          "object": "model",
+          "provider": "openai-compatible",
+          "upstream_model": "gpt-6-astra"
+        },
+        {
+          "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+          "available": true,
+          "capabilities": [
+            "chat"
+          ],
+          "id": "gpt-5.6-luna",
+          "name": "gpt-5.6-luna",
+          "object": "model",
+          "provider": "openai-compatible",
+          "upstream_model": "gpt-5.6-luna"
+        },
+        {
+          "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+          "available": true,
+          "capabilities": [
+            "chat"
+          ],
+          "id": "gpt-5.6-terra",
+          "name": "gpt-5.6-terra",
+          "object": "model",
+          "provider": "openai-compatible",
+          "upstream_model": "gpt-5.6-terra"
+        },
+        {
+          "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+          "available": true,
+          "capabilities": [
+            "image"
+          ],
+          "id": "gpt-image-2.5-sunburst",
+          "name": "gpt-image-2.5-sunburst",
+          "object": "model",
+          "provider": "openai-compatible",
+          "upstream_model": "gpt-image-2.5-sunburst"
+        },
+        {
+          "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+          "available": true,
+          "capabilities": [
+            "realtime"
+          ],
+          "id": "gpt-realtime-2.1",
+          "name": "gpt-realtime-2.1",
+          "object": "model",
+          "provider": "openai-compatible",
+          "upstream_model": "gpt-realtime-2.1"
+        },
+        {
+          "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+          "available": true,
+          "capabilities": [
+            "transcription"
+          ],
+          "id": "gpt-live-transcribe",
+          "name": "gpt-live-transcribe",
+          "object": "model",
+          "provider": "openai-compatible",
+          "upstream_model": "gpt-live-transcribe"
+        },
+        {
+          "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+          "available": true,
+          "capabilities": [
+            "chat"
+          ],
+          "id": "nemotron-3.5-super-vl",
+          "name": "nemotron-3.5-super-vl",
+          "object": "model",
+          "provider": "nebius",
+          "upstream_model": "nvidia/Nemotron-3.5-Super-VL"
+        },
+        {
+          "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+          "available": true,
+          "capabilities": [
+            "parse"
+          ],
+          "id": "nemotron-parse-3.5",
+          "name": "nemotron-parse-3.5",
+          "object": "model",
+          "provider": "nvidia",
+          "upstream_model": "nvidia/nemotron-3.5-parse"
+        },
+        {
+          "availability_reason": "configured_but_not_verified_in_provider_catalog",
+          "available": false,
+          "capabilities": [
+            "embedding"
+          ],
+          "id": "nemotron-3-embed-vl",
+          "name": "nemotron-3-embed-vl",
+          "object": "model",
+          "provider": "nvidia",
+          "upstream_model": "nvidia/llama-nemotron-embed-vl-1b-v2"
+        },
+        {
+          "availability_reason": "configured_but_not_verified_in_provider_catalog",
+          "available": false,
+          "capabilities": [
+            "rerank"
+          ],
+          "id": "nemotron-3-rerank-vl",
+          "name": "nemotron-3-rerank-vl",
+          "object": "model",
+          "provider": "nvidia",
+          "upstream_model": "nvidia/llama-nemotron-rerank-vl-1b-v2"
+        }
+      ],
+      "object": "list"
+    }
+  },
+  "unauthenticated_ready": {
+    "http": 401,
+    "seconds": 0.001,
+    "body": {
+      "non_json_bytes": 0
+    }
+  },
+  "query_embeddings": {
+    "http": 200,
+    "seconds": 0.212,
+    "body": {
+      "dimensions": 2048,
+      "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+      "model_revision": "582e3bf72aee355e3c59ed89de53543c5b0657ee",
+      "normalized": true,
+      "object": "list"
+    },
+    "vector_summaries": [
+      {
+        "dimensions": 2048,
+        "l2_norm": 1.0000000178568007,
+        "sha256": "25bc9d0ff93e1bc3b753293d99447b4d907640282f983659330348df3f9ba0e5"
+      }
+    ]
+  },
+  "document_embeddings": {
+    "http": 200,
+    "seconds": 0.123,
+    "body": {
+      "dimensions": 2048,
+      "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+      "model_revision": "582e3bf72aee355e3c59ed89de53543c5b0657ee",
+      "normalized": true,
+      "object": "list"
+    },
+    "vector_summaries": [
+      {
+        "dimensions": 2048,
+        "l2_norm": 0.9999999962665795,
+        "sha256": "81bc8b547ef00f660ebfa8086d1289cde20182c85f38d5c008b302fc842b30b2"
+      },
+      {
+        "dimensions": 2048,
+        "l2_norm": 0.9999999833124351,
+        "sha256": "e36ee8c224afeed992cef894931925de587464f4f0a4fc60489f47cbf9359891"
+      }
+    ]
+  },
+  "rerank": {
+    "http": 200,
+    "seconds": 0.065,
+    "body": {
+      "model": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+      "model_revision": "b8a9987b05b75db5ad949c825cbcbf6eb7c48b5a",
+      "results": [
+        {
+          "index": 0,
+          "relevance_score": 3.2231974601745605
+        },
+        {
+          "index": 1,
+          "relevance_score": -9.260969161987305
+        }
+      ],
+      "score_type": "raw_logit"
+    }
+  },
+  "verified": true,
+  "security_verified": true
+}

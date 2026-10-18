@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-18T17:27:29.866Z",
+  "status": "PASS",
+  "query": "Shipbuilding techniques",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "boundary": "Real native core multilingual compound query rewrite; run cancelled before strict Hermes pipeline (waiting for GPU readiness)."
+}

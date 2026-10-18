@@ -1,0 +1,66 @@
+{
+  "observed_at": "2026-10-18T17:48:38.814898+00:00",
+  "via": "public authenticated application model catalog",
+  "models": [
+    {
+      "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+      "available": true,
+      "capabilities": [
+        "chat"
+      ],
+      "id": "nemotron-3.5-super-vl",
+      "name": "nemotron-3.5-super-vl",
+      "object": "model",
+      "provider": "nebius",
+      "upstream_model": "nvidia/Nemotron-3.5-Super-VL"
+    },
+    {
+      "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+      "available": true,
+      "capabilities": [
+        "parse"
+      ],
+      "id": "nemotron-parse-3.5",
+      "name": "nemotron-parse-3.5",
+      "object": "model",
+      "provider": "nvidia",
+      "upstream_model": "nvidia/nemotron-3.5-parse"
+    },
+    {
+      "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+      "available": true,
+      "capabilities": [
+        "embedding"
+      ],
+      "id": "nemotron-3-embed-vl",
+      "name": "nemotron-3-embed-vl",
+      "object": "model",
+      "provider": "nvidia",
+      "upstream_model": "nvidia/llama-nemotron-embed-vl-1b-v2"
+    },
+    {
+      "availability_reason": "listed_by_provider; invocation still subject to deployment and quota",
+      "available": true,
+      "capabilities": [
+        "rerank"
+      ],
+      "id": "nemotron-3-rerank-vl",
+      "name": "nemotron-3-rerank-vl",
+      "object": "model",
+      "provider": "nvidia",
+      "upstream_model": "nvidia/llama-nemotron-rerank-vl-1b-v2"
+    },
+    {
+      "availability_reason": "pinned_local_model_sha256_verified; batch CPU speaker turns",
+      "available": true,
+      "capabilities": [
+        "diarization"
+      ],
+      "id": "nvidia/Nemotron-3-Diarization",
+      "name": "Nemotron 3 Diarization",
+      "object": "model",
+      "provider": "nvidia",
+      "upstream_model": "nvidia/Nemotron-3-Diarization"
+    }
+  ]
+}

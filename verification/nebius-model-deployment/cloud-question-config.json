@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-18T18:21:43.807355+00:00",
+  "image_digest": "sha256:744ddec0b94551f3024c9359b5fdddd671ad3325e4fbe8dcef9931286d594ce8",
+  "acr_run": "dtr",
+  "change": "Preserve original comparison question separately from discovery query; retain CPUdiarization and verified catalogs",
+  "other_fields_preserved": true
+}

@@ -1,0 +1,88 @@
+{
+  "observed_at": "2026-10-18T18:25:01.642Z",
+  "origin": "https://tomi-web.graysky-dd3771ab.swedencentral.azurecontainerapps.io",
+  "model": "nemotron-3.5-super-vl",
+  "seconds": 12.478,
+  "status": "FAIL",
+  "event_types": [
+    "run.started",
+    "tool.started",
+    "tool.completed",
+    "tool.started",
+    "tool.completed",
+    "run.failed"
+  ],
+  "tool_events": [
+    {
+      "data": {
+        "language": "en",
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve"
+      },
+      "run_id": "095eac58-1258-47f9-b774-f77645a4430e",
+      "session_id": "932e4a2e-f56a-493d-945b-9079b5a9c848",
+      "timestamp": "2026-10-18T18:24:58.452646509+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve",
+        "query": "historical and modern shipbuilding techniques"
+      },
+      "run_id": "095eac58-1258-47f9-b774-f77645a4430e",
+      "session_id": "932e4a2e-f56a-493d-945b-9079b5a9c848",
+      "timestamp": "2026-10-18T18:24:59.226015175+00:00",
+      "type": "tool.completed"
+    },
+    {
+      "data": {
+        "arguments": {
+          "discovery_query": "historical and modern shipbuilding techniques",
+          "locale": "en",
+          "question": "Compare historical and modern shipbuilding techniques. What does the historical excerpt say shelf-pieces are made from, compared with the modern excerpt definition of a shipyard? Give only that narrow comparison. Do not mention other construction techniques or materials.",
+          "top_k": 6
+        },
+        "name": "hermes.compare"
+      },
+      "run_id": "095eac58-1258-47f9-b774-f77645a4430e",
+      "session_id": "932e4a2e-f56a-493d-945b-9079b5a9c848",
+      "timestamp": "2026-10-18T18:24:59.226055675+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "blockers": [
+          "v1/embeddings: HTTP 502"
+        ],
+        "name": "hermes.compare",
+        "sources": 0,
+        "status": "blocked",
+        "traces": [
+          {
+            "duration_ms": 397,
+            "occurred_at": "2026-10-18T18:24:59.748046+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.query"
+          },
+          {
+            "duration_ms": 114,
+            "error": "v1/embeddings: HTTP 502",
+            "occurred_at": "2026-10-18T18:24:59.861613+00:00",
+            "status": "failed",
+            "tool": "nemotron.embed.history"
+          }
+        ]
+      },
+      "run_id": "095eac58-1258-47f9-b774-f77645a4430e",
+      "session_id": "932e4a2e-f56a-493d-945b-9079b5a9c848",
+      "timestamp": "2026-10-18T18:24:59.944740558+00:00",
+      "type": "tool.completed"
+    }
+  ],
+  "answer": {
+    "code": "not_configured",
+    "message": "Source retrieval is blocked; inspect the tool trace for the missing evidence or dependency"
+  },
+  "boundary": "Actual public Nemotron core stream; inspect tool status for semantic readiness, not inferred from answer success."
+}

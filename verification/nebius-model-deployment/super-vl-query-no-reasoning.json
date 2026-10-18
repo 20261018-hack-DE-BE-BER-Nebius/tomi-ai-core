@@ -1,0 +1,27 @@
+{
+  "observed_at": "2026-10-18T17:25:49.610309+00:00",
+  "http": 200,
+  "seconds": 0.5174066670006141,
+  "max_tokens": 256,
+  "reasoning_effort": "none",
+  "finish_reason": "stop",
+  "content": "Shipbuilding techniques",
+  "reasoning_character_count": 0,
+  "usage": {
+    "completion_tokens": 4,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": null,
+      "audio_tokens": null,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": null
+    },
+    "prompt_tokens": 234,
+    "prompt_tokens_details": {
+      "audio_tokens": null,
+      "cached_tokens": 0,
+      "created_cache_tokens": 0,
+      "multimodal_tokens": null
+    },
+    "total_tokens": 238
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "observed_at": "2026-10-18T18:29:11.385532+00:00",
+  "source": "Nebius CLI endpoint logs, authenticated read-only, selected request status lines only",
+  "endpoint_id": "aiendpoint-e05f3e78pdnqnrgf9g",
+  "rejected_at": "2026-10-18T20:24:59+02:00",
+  "query_embedding_http": 200,
+  "historical_batch_http": 422,
+  "interpretation": "Input validation rejection; query inference succeeded immediately before. Corrected blank-page filtering belongs to Hermes source and its live regression evidence.",
+  "public_trace": "public-nvidia-comparison-before-blank-filter.json"
+}

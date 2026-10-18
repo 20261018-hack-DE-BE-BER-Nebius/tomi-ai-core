@@ -1,0 +1,16 @@
+{
+  "observed_at": "2026-10-18T21:05:51.787416+00:00",
+  "image_digest": "sha256:559286e9e2e968ba0b90ab0b0b59edb010b24fb50ef32700b80d9f38b5b9114f",
+  "acr_run": "dtw",
+  "image_update_submitted": true,
+  "change": "Expose semantic-review requirement in allfourlanguages; select concise encyclopedia article title with NVIDIAtemperature0",
+  "other_fields_preserved": true,
+  "source_digests": {
+    "src/application/query.rs": "00a4bb371c2b0d8f9e20bebd7100a5829ab2f110e474c97ef8be4b72c880d1b5",
+    "src/application/generative.rs": "bd934c19e262c1460c8b75c9dd8b09c3a4a257d78e838382c46baf99f42e98c9",
+    "tests/support/mod.rs": "6858e5a4af332745b21906f90e16bac2a1295e30281af760d20f5ddecaadd812"
+  },
+  "ready_revision": "tomi-ai-core--0000008",
+  "ready_verified_at": "2026-10-18T21:08:56.023731+00:00",
+  "public_acceptance": "source-entailment-review.json"
+}

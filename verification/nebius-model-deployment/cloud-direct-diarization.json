@@ -1,0 +1,50 @@
+{
+  "observed_at": "2026-10-18T18:20:40.841187+00:00",
+  "location": "Azurecore0000006 localhost authenticated HTTP through private containerexec",
+  "http": 200,
+  "seconds": 32.185262,
+  "resources": {
+    "cpu": 2,
+    "memory": "4Gi"
+  },
+  "source_audio_url": "https://huggingface.co/datasets/hf-internal-testing/dummy-audio-samples/resolve/main/diarization_example.mp3",
+  "audio_sha256": "405cda325341ec9d96902e962fafc26d57fe08a255d98277b1858610efbe4dfb",
+  "transformation": "first30seconds,mono16kHz64kbpsMP3 with containerffmpeg5.1.9",
+  "model": "nvidia/Nemotron-3-Diarization",
+  "model_revision": "f667ed73aee57d40cc39428eb768b4fd87a0a29e",
+  "mode": "batch",
+  "segments": [
+    {
+      "speaker": "speaker_1",
+      "start": 0.131,
+      "end": 9.439
+    },
+    {
+      "speaker": "speaker_2",
+      "start": 9.131,
+      "end": 13.899
+    },
+    {
+      "speaker": "speaker_3",
+      "start": 13.341,
+      "end": 18.399
+    },
+    {
+      "speaker": "speaker_4",
+      "start": 18.151,
+      "end": 23.669
+    },
+    {
+      "speaker": "speaker_5",
+      "start": 24.731,
+      "end": 28.169
+    },
+    {
+      "speaker": "speaker_1",
+      "start": 27.571,
+      "end": 28.159
+    }
+  ],
+  "temporary_diagnostic_files_deleted": true,
+  "credential_values_printed": false
+}

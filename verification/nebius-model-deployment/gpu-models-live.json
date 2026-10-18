@@ -1,0 +1,129 @@
+{
+  "observed_at": "2026-10-18T17:30:05.616404+00:00",
+  "endpoint_id": "aiendpoint-e05f3e78pdnqnrgf9g",
+  "endpoint_state": "RUNNING",
+  "urls": [
+    "https://port8000-bxz0yk5hx2b8vyp.tunnel.applications.uk-south2.nebius.cloud"
+  ],
+  "ready": {
+    "http": 200,
+    "seconds": 0.124,
+    "body": {
+      "status": "ready",
+      "models": [
+        {
+          "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+          "revision": "582e3bf72aee355e3c59ed89de53543c5b0657ee",
+          "role": "embedder",
+          "dimensions": 2048
+        },
+        {
+          "id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+          "revision": "b8a9987b05b75db5ad949c825cbcbf6eb7c48b5a",
+          "role": "reranker"
+        }
+      ],
+      "runtime": {
+        "backend": "torch_cuda",
+        "production": true,
+        "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+        "gpu_memory_bytes": 101973819392,
+        "compute_capability": [
+          12,
+          0
+        ],
+        "compiled_arches": [
+          "sm_70",
+          "sm_75",
+          "sm_80",
+          "sm_86",
+          "sm_90",
+          "sm_100",
+          "sm_120"
+        ],
+        "torch": "2.8.0+cu128",
+        "cuda": "12.8",
+        "transformers": "4.56.2",
+        "precision": "bfloat16",
+        "attention": "sdpa",
+        "microbatch_size": 1,
+        "weights_verified": true,
+        "warmup_modalities": [
+          "query_text",
+          "document_text",
+          "image",
+          "image_text"
+        ]
+      }
+    }
+  },
+  "unauthenticated_ready": {
+    "http": 401,
+    "seconds": 0.206,
+    "body": {
+      "non_json_bytes": 13
+    }
+  },
+  "query_embeddings": {
+    "http": 200,
+    "seconds": 0.314,
+    "body": {
+      "object": "list",
+      "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+      "model_revision": "582e3bf72aee355e3c59ed89de53543c5b0657ee",
+      "dimensions": 2048,
+      "normalized": true
+    },
+    "vector_summaries": [
+      {
+        "dimensions": 2048,
+        "l2_norm": 1.0000000178568007,
+        "sha256": "3cf00bbc13246ab29f19f05039f5a99cafdeeb586eeab1fa3c975382041bd9cd"
+      }
+    ]
+  },
+  "document_embeddings": {
+    "http": 200,
+    "seconds": 0.289,
+    "body": {
+      "object": "list",
+      "model": "nvidia/llama-nemotron-embed-vl-1b-v2",
+      "model_revision": "582e3bf72aee355e3c59ed89de53543c5b0657ee",
+      "dimensions": 2048,
+      "normalized": true
+    },
+    "vector_summaries": [
+      {
+        "dimensions": 2048,
+        "l2_norm": 0.9999999962665795,
+        "sha256": "7f6cb6a7c574928fc359b9d8d2e21e30913c84abc4851a75bceeba5a438214eb"
+      },
+      {
+        "dimensions": 2048,
+        "l2_norm": 0.9999999833124351,
+        "sha256": "c8c665e3d22873169fe16a046244765a660534283027513b9f6c4cb7abb1defc"
+      }
+    ]
+  },
+  "rerank": {
+    "http": 200,
+    "seconds": 0.213,
+    "body": {
+      "model": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+      "model_revision": "b8a9987b05b75db5ad949c825cbcbf6eb7c48b5a",
+      "score_type": "raw_logit",
+      "results": [
+        {
+          "index": 0,
+          "relevance_score": 3.2231974601745605
+        },
+        {
+          "index": 1,
+          "relevance_score": -9.260969161987305
+        }
+      ]
+    }
+  },
+  "verified": true,
+  "security_verified": true
+}

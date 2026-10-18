@@ -1,0 +1,64 @@
+{
+  "observed_at": "2026-10-18T20:58:21.525531+00:00",
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "source_digest_sha256": "00a4bb371c2b0d8f9e20bebd7100a5829ab2f110e474c97ef8be4b72c880d1b5",
+  "temperature": 0,
+  "cases": [
+    {
+      "language": "en",
+      "question": "Shipbuilding techniques. Compare only what the historical shipbuilding excerpt says shelf-pieces are made from with the modern shipbuilding article’s definition of a shipyard. Do not compare shelves or infer technological progress.",
+      "query": "Shipbuilding",
+      "expected_article_titles": [
+        "Shipbuilding"
+      ],
+      "passed": true,
+      "http": 200,
+      "seconds": 0.83
+    },
+    {
+      "language": "es",
+      "question": "Microscopía. Compara cómo el texto histórico describe las lentes con la definición moderna de un microscopio. Cita fuentes y explica las limitaciones del OCR.",
+      "query": "Microscope",
+      "expected_article_titles": [
+        "Microscopy"
+      ],
+      "passed": false,
+      "http": 200,
+      "seconds": 0.63
+    },
+    {
+      "language": "de",
+      "question": "Elektrizität. Vergleiche die historische Erklärung des elektrischen Stroms mit der modernen Definition. Erkläre Unsicherheiten und zitiere die Quellen.",
+      "query": "Electric current",
+      "expected_article_titles": [
+        "Electricity"
+      ],
+      "passed": false,
+      "http": 200,
+      "seconds": 0.539
+    },
+    {
+      "language": "fr",
+      "question": "Reconnaissance optique de caractères. Compare les anciennes méthodes avec les systèmes actuels, leurs entrées et leurs limites. Réponds en français avec des citations.",
+      "query": "Optical character recognition",
+      "expected_article_titles": [
+        "Optical character recognition"
+      ],
+      "passed": true,
+      "http": 200,
+      "seconds": 0.342
+    }
+  ],
+  "passed": false,
+  "boundary": "Real query-only model calls through native gateway; canonical subject regression, not semantic answer certification.",
+  "manual_relevance_review": {
+    "review_class": "assistant review of query meaning; not a guarantee of retrieved-source or answer relevance",
+    "relevant_concise_titles": 4,
+    "exact_expected_broad_titles": 2,
+    "notes": [
+      "Microscope narrows microscopy to the instrument explicitly mentioned in the question.",
+      "Electric current narrows electricity to the process explicitly requested.",
+      "These exact-title mismatches remain failed in the raw assertions; no expected results were changed after observing output."
+    ]
+  }
+}

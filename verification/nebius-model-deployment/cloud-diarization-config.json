@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-18T17:47:32.463586+00:00",
+  "image_digest": "sha256:9686486c9c6b54651e2d15652b98eabc7fb397b458ec86a840bf323165fc5121",
+  "acr_run": "dtn",
+  "change": "Pinned CPU Nemotron3Diarization runtime and verified embedding/reranking catalog probes",
+  "other_fields_preserved": true
+}

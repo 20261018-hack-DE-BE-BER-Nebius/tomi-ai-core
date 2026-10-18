@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-10-18T17:23:27.567Z",
+  "origin": "https://tomi-web.graysky-dd3771ab.swedencentral.azurecontainerapps.io",
+  "model": "nemotron-3.5-super-vl",
+  "seconds": 1.367,
+  "status": "FAIL",
+  "event_types": [
+    "run.started",
+    "tool.started",
+    "run.failed"
+  ],
+  "tool_events": [
+    {
+      "data": {
+        "language": "en",
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve"
+      },
+      "run_id": "6985c314-8c54-4566-99f8-175dec617c8e",
+      "session_id": "45163e99-4a30-4d6f-ba7c-2d2b86c05f92",
+      "timestamp": "2026-10-18T17:23:26.491237816+00:00",
+      "type": "tool.started"
+    }
+  ],
+  "answer": {
+    "code": "upstream_unavailable",
+    "message": "Upstream request failed or timed out"
+  },
+  "boundary": "Actual public Nemotron core stream; inspect tool status for semantic readiness, not inferred from answer success."
+}

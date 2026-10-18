@@ -1,0 +1,482 @@
+{
+  "observed_at": "2026-10-18T20:47:19.693Z",
+  "origin": "https://tomi-web.graysky-dd3771ab.swedencentral.azurecontainerapps.io",
+  "model": "nemotron-3.5-super-vl",
+  "seconds": 32.978,
+  "status": "OPERATIONAL_PASS_SEMANTIC_FAIL",
+  "event_types": [
+    "run.started",
+    "tool.started",
+    "tool.completed",
+    "tool.started",
+    "tool.completed",
+    "answer.delta",
+    "answer.completed"
+  ],
+  "tool_events": [
+    {
+      "data": {
+        "language": "en",
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve"
+      },
+      "run_id": "d1cbe1ec-e77f-4754-a87b-bd870ff43f7c",
+      "session_id": "090fd351-4e94-4c85-96f5-ced9425a71e5",
+      "timestamp": "2026-10-18T20:46:54.998887203+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve",
+        "query": "historical shelf-pieces materials modern shipyard definition"
+      },
+      "run_id": "d1cbe1ec-e77f-4754-a87b-bd870ff43f7c",
+      "session_id": "090fd351-4e94-4c85-96f5-ced9425a71e5",
+      "timestamp": "2026-10-18T20:46:55.680953911+00:00",
+      "type": "tool.completed"
+    },
+    {
+      "data": {
+        "arguments": {
+          "discovery_query": "historical shelf-pieces materials modern shipyard definition",
+          "locale": "en",
+          "question": "Compare historical and modern shipbuilding techniques. What does the historical excerpt say shelf-pieces are made from, compared with the modern excerpt definition of a shipyard? Give only that narrow comparison. Do not mention other construction techniques or materials.",
+          "top_k": 6
+        },
+        "name": "hermes.compare"
+      },
+      "run_id": "d1cbe1ec-e77f-4754-a87b-bd870ff43f7c",
+      "session_id": "090fd351-4e94-4c85-96f5-ced9425a71e5",
+      "timestamp": "2026-10-18T20:46:55.680967710+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "blockers": [],
+        "name": "hermes.compare",
+        "sources": 7,
+        "status": "needs_review",
+        "traces": [
+          {
+            "duration_ms": 310,
+            "occurred_at": "2026-10-18T20:46:56.109415+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.query"
+          },
+          {
+            "duration_ms": 648,
+            "occurred_at": "2026-10-18T20:46:56.757016+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 502,
+            "occurred_at": "2026-10-18T20:46:57.373923+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 503,
+            "occurred_at": "2026-10-18T20:46:57.939952+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 517,
+            "occurred_at": "2026-10-18T20:46:58.507564+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 517,
+            "occurred_at": "2026-10-18T20:46:59.125049+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 533,
+            "occurred_at": "2026-10-18T20:46:59.760580+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 55,
+            "occurred_at": "2026-10-18T20:46:59.881405+00:00",
+            "status": "completed",
+            "tool": "lancedb.historical"
+          },
+          {
+            "duration_ms": 237,
+            "occurred_at": "2026-10-18T20:47:00.182110+00:00",
+            "status": "completed",
+            "tool": "wikipedia.search"
+          },
+          {
+            "duration_ms": 531,
+            "occurred_at": "2026-10-18T20:47:00.712846+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 536,
+            "occurred_at": "2026-10-18T20:47:01.337702+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 530,
+            "occurred_at": "2026-10-18T20:47:01.974999+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 527,
+            "occurred_at": "2026-10-18T20:47:02.558586+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 527,
+            "occurred_at": "2026-10-18T20:47:03.139454+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 536,
+            "occurred_at": "2026-10-18T20:47:03.769295+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 537,
+            "occurred_at": "2026-10-18T20:47:04.389695+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 523,
+            "occurred_at": "2026-10-18T20:47:04.968152+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 45,
+            "occurred_at": "2026-10-18T20:47:05.070784+00:00",
+            "status": "completed",
+            "tool": "wikipedia.cached_exact_title"
+          },
+          {
+            "duration_ms": 335,
+            "occurred_at": "2026-10-18T20:47:05.406216+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.document"
+          },
+          {
+            "duration_ms": 49,
+            "occurred_at": "2026-10-18T20:47:05.505869+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.query"
+          },
+          {
+            "duration_ms": 59,
+            "occurred_at": "2026-10-18T20:47:05.564483+00:00",
+            "status": "completed",
+            "tool": "lancedb.search"
+          },
+          {
+            "duration_ms": 184,
+            "occurred_at": "2026-10-18T20:47:05.748455+00:00",
+            "status": "completed",
+            "tool": "nemotron.rerank"
+          },
+          {
+            "at_epoch": 1792356434.8787372,
+            "status": "completed",
+            "tool": "tomi_evidence"
+          }
+        ]
+      },
+      "run_id": "d1cbe1ec-e77f-4754-a87b-bd870ff43f7c",
+      "session_id": "090fd351-4e94-4c85-96f5-ced9425a71e5",
+      "timestamp": "2026-10-18T20:47:16.698556761+00:00",
+      "type": "tool.completed"
+    }
+  ],
+  "answer": {
+    "blocks": [
+      {
+        "historical": "<x_0.0576><y_0.0445>292 SHIP-BUILDING.<x_0.6514><y_0.0563><class_Page-header>\n\n<x_0.0615><y_0.0648>Fractical Building<x_0.126><y_0.1117><class_Section-header>\n\n<x_0.1182><y_0.057>ends in close contact with, and cooked or dowelled to, the sides of the diagonal timbers. In this state the frame--on in the hold presents various compartments, each representing the figure of a method.<x_0.5244><y_0.1172><class_Text>\n\n<x_0.1172><y_0.1109>A T reads\u2014timber is then introduced into each rhombed, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The trust--pieces so in- tended into one rhombed, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the autumn, and extension of the various ties.<x_0.5391><y_0.2141><class_Text>\n\n<x_0.1191><y_0.2094>\"This arch-like property of the diagonal frame not only opposes an alteration of position in a longitudinal direction, but also restate external pressure on the bottom, either from grounding or any other cause, because so impression can be made in its figure in these directions, without forcing the several parts of which it is composed into a shorter space.<x_0.54><y_0.2875><class_Text>\n\n<x_0.1201><y_0.2836>The beams are discussed in the system nearly as we usual, except that in buildings, where a ship necessarily re-quires the greatest security, two additional beams have been introduced.<x_0.541><y_0.3367><class_Text>\n\n<x_0.1367><y_0.3328>\u2022 The beams of the several decks are attached to the shiny\u2019s side in the following manner.<x_0.542><y_0.3617><class_List-item>\n\n<x_0.1348><y_0.3586>1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings\u2019 system, after the adoption of the circular stem into the service, \u2014to the under side of w",
+        "modern": "A shelf (pl.: shelves) is a flat, horizontal or sloping plane used for items that are displayed or stored in a home, business, store, or elsewhere. It is raised off the floor and often anchored to a wall, supported on its shorter length sides by brackets, or otherwise anchored to cabinetry by brackets, dowels, screws, or nails. It can also be held up by columns or pillars. A shelf is also known as a counter, ledge, mantel, or rack. Tables designed to be placed against a wall, possibly mounted, are known as console tables, and are similar to individual shelves.\n\nThe word shelf originates in late 14th century Middle English. The word is from the Old English scylfe; similar to Low German schelf meaning shelf and Old Norse - skjalf meaning bench.\n\nA shelf can be attached to a wall or other vertical surface, be suspended from a ceiling, be a part of a free-standing frame unit, or it can be part of a piece of furniture such as a cabinet, bookcase, entertainment center, headboard, and so on. Usually, two to six shelves make up a unit, each shelf being attached perpendicularly to the vertical or diagonal supports and positioned parallel one above the other. Free-standing shelves can be accessible from either one or both longer length sides. A shelf with hidden internal brackets is termed a floating shelf. A shelf or case designed to hold books is called a bookshelf.\n\nThe length of the shelf is based upon the space limitations of its siting and the amount of weight which it will be expected to hold. The vertical distance between the shelves is based upon the space limitations of the unit's siting and the height of the objects; adjustable shelving systems allow the vertical distance to be altered. The unit can be fixed or be some form of mobile shelving. The most heavy-duty shelving is pallet racking. In a store, the front edge of the shelf under the object(s) held might be used to display the name, product number, pricing, and other information about the object(s).\n\nSloping shelves help to make the contents of a shelf more visible.\n\nShelves are normally made of strong materials such as wood, bamboo or steel, though shelves to hold lighter-weight objects can be made of gl",
+        "source_ids": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+          "wikipedia:31307996"
+        ],
+        "type": "comparison"
+      }
+    ],
+    "categories": [
+      {
+        "description": "Retrieved excerpts with inspectable provenance",
+        "name": "Source evidence"
+      }
+    ],
+    "claims": [
+      {
+        "category": "knowledge",
+        "citations": [
+          {
+            "document_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+            "end_cp": 2520,
+            "offset_basis": "raw_codepoints",
+            "quote": "1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings\u2019 system, after the adoption of the circular stem into the service, \u2014to the under side of which, as well as the whole part of the beams, they are securely cookies, and being then firmly bolted to the side, instead of becoming a mere local fixer of the beam to the shiny\u2019s exterior frame, as likely were, they are seen continued and general security. The shelf-piece is also a tie to the top-side in a four and a",
+            "revision_id": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+            "source_url": "https://huggingface.co/datasets/NationalLibraryOfScotland/encyclopaedia_britannica_illustrated/tree/309f765b1ecc83e0a7f7762e44b4a927a7555443",
+            "start_cp": 1720,
+            "text_sha256": "4bdd311a6eb6a14bd8632709e16b2a598e914e7dadcddc412814fcd94378ebe2"
+          },
+          {
+            "document_id": "wikipedia:31307996",
+            "end_cp": 800,
+            "offset_basis": "raw_codepoints",
+            "quote": "A shelf (pl.: shelves) is a flat, horizontal or sloping plane used for items that are displayed or stored in a home, business, store, or elsewhere. It is raised off the floor and often anchored to a wall, supported on its shorter length sides by brackets, or otherwise anchored to cabinetry by brackets, dowels, screws, or nails. It can also be held up by columns or pillars. A shelf is also known as a counter, ledge, mantel, or rack. Tables designed to be placed against a wall, possibly mounted, are known as console tables, and are similar to individual shelves.\n\nThe word shelf originates in late 14th century Middle English. The word is from the Old English scylfe; similar to Low German schelf meaning shelf and Old Norse - skjalf meaning bench.\n\nA shelf can be attached to a wall or other ver",
+            "revision_id": "1325037779",
+            "source_url": "https://en.wikipedia.org/w/index.php?oldid=1325037779",
+            "start_cp": 0,
+            "text_sha256": "b133ae998acdfbfaf1cb7863461f7433efd63e02a8ac77176f07c64123e34034"
+          }
+        ],
+        "support_status": "span_verified_semantics_unreviewed",
+        "text": "The historical excerpt says shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels, while the modern excerpt defines a shelf as a flat, horizontal or sloping plane used for items that are displayed or stored."
+      }
+    ],
+    "evidence": [
+      {
+        "excerpt": "<x_0.0576><y_0.0445>292 SHIP-BUILDING.<x_0.6514><y_0.0563><class_Page-header>\n\n<x_0.0615><y_0.0648>Fractical Building<x_0.126><y_0.1117><class_Section-header>\n\n<x_0.1182><y_0.057>ends in close contact with, and cooked or dowelled to, the sides of the diagonal timbers. In this state the frame--on in the hold presents various compartments, each representing the figure of a method.<x_0.5244><y_0.1172><class_Text>\n\n<x_0.1172><y_0.1109>A T reads\u2014timber is then introduced into each rhombed, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The trust--pieces so in- tended into one rhombed, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the autumn, and extension of the various ties.<x_0.5391><y_0.2141><class_Text>\n\n<x_0.1191><y_0.2094>\"This arch-like property of the diagonal frame not only opposes an alteration of position in a longitudinal direction, but also restate external pressure on the bottom, either from grounding or any other cause, because so impression can be made in its figure in these directions, without forcing the several parts of which it is composed into a shorter space.<x_0.54><y_0.2875><class_Text>\n\n<x_0.1201><y_0.2836>The beams are discussed in the system nearly as we usual, except that in buildings, where a ship necessarily re-quires the greatest security, two additional beams have been introduced.<x_0.541><y_0.3367><class_Text>\n\n<x_0.1367><y_0.3328>\u2022 The beams of the several decks are attached to the shiny\u2019s side in the following manner.<x_0.542><y_0.3617><class_List-item>\n\n<x_0.1348><y_0.3586>1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings\u2019 system, after the adoption of the circular stem into the service, \u2014to the under side of w",
+        "id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+        "injection_flagged": false,
+        "revision_id": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+        "score": null,
+        "source": "historical",
+        "text_sha256": "4bdd311a6eb6a14bd8632709e16b2a598e914e7dadcddc412814fcd94378ebe2",
+        "title": "Britannica page 13",
+        "untrusted": true,
+        "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/encyclopaedia_britannica_illustrated/tree/309f765b1ecc83e0a7f7762e44b4a927a7555443"
+      },
+      {
+        "excerpt": "A shelf (pl.: shelves) is a flat, horizontal or sloping plane used for items that are displayed or stored in a home, business, store, or elsewhere. It is raised off the floor and often anchored to a wall, supported on its shorter length sides by brackets, or otherwise anchored to cabinetry by brackets, dowels, screws, or nails. It can also be held up by columns or pillars. A shelf is also known as a counter, ledge, mantel, or rack. Tables designed to be placed against a wall, possibly mounted, are known as console tables, and are similar to individual shelves.\n\nThe word shelf originates in late 14th century Middle English. The word is from the Old English scylfe; similar to Low German schelf meaning shelf and Old Norse - skjalf meaning bench.\n\nA shelf can be attached to a wall or other vertical surface, be suspended from a ceiling, be a part of a free-standing frame unit, or it can be part of a piece of furniture such as a cabinet, bookcase, entertainment center, headboard, and so on. Usually, two to six shelves make up a unit, each shelf being attached perpendicularly to the vertical or diagonal supports and positioned parallel one above the other. Free-standing shelves can be accessible from either one or both longer length sides. A shelf with hidden internal brackets is termed a floating shelf. A shelf or case designed to hold books is called a bookshelf.\n\nThe length of the shelf is based upon the space limitations of its siting and the amount of weight which it will be expected to hold. The vertical distance between the shelves is based upon the space limitations of the unit's siting and the height of the objects; adjustable shelving systems allow the vertical distance to be altered. The unit can be fixed or be some form of mobile shelving. The most heavy-duty shelving is pallet racking. In a store, the front edge of the shelf under the object(s) held might be used to display the name, product number, pricing, and other information about the object(s).\n\nSloping shelves help to make the contents of a shelf more visible.\n\nShelves are normally made of strong materials such as wood, bamboo or steel, though shelves to hold lighter-weight objects can be made of gl",
+        "id": "wikipedia:31307996",
+        "injection_flagged": false,
+        "revision_id": "1325037779",
+        "score": -5.0721282958984375,
+        "source": "modern",
+        "text_sha256": "b133ae998acdfbfaf1cb7863461f7433efd63e02a8ac77176f07c64123e34034",
+        "title": "Shelf (storage)",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1325037779"
+      },
+      {
+        "excerpt": "A beehive shelf is a piece of laboratory equipment, usually of pottery, used to support a receiving jar or tube while a gas is being collected over water with a pneumatic trough. It is used so that when the gas emerges from the delivery tube into the beehive shelf, it is funneled into the receiving jar instead of being released elsewhere.\n\nThe name derives from the design of early beehives made from bound grass called a skep. The squat circular shape was made by binding the grass bundles to form a flat wheel. Sides were added using the same material with a cutout to allow honey bees to enter and leave the hive.",
+        "id": "wikipedia:1627917",
+        "injection_flagged": false,
+        "revision_id": "1080151987",
+        "score": -6.683457851409912,
+        "source": "modern",
+        "text_sha256": "542f4c67400edc05d2db715bfe11793779c2d020f57eccc4face5f77237bf715",
+        "title": "Beehive shelf",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1080151987"
+      },
+      {
+        "excerpt": "The Convention on the Continental Shelf was an international treaty created to codify the rules of international law relating to continental shelves. The treaty, after entering into force 10 June 1964, established the rights of a sovereign state over the continental shelf surrounding it, if there be any. The treaty was one of three agreed upon at the first United Nations Convention on the Law of the Sea (UNCLOS I). It has since been superseded by a new agreement reached in 1982 at UNCLOS I II.\n\nThe treaty dealt with seven topics: the regime governing the superjacent waters and airspace; laying or maintenance of submarine cables or pipelines; the regime governing navigation, fishing, scientific research and the coastal state's competence in these areas; delimitation; tunneling.\n\nThe Convention on the Continental Shelf replaced the earlier practice of nations having sovereignty over only a very narrow strip of the sea surrounding them, with anything beyond that strip considered International Waters. This policy was used until President of the United States Harry S. Truman proclaimed that the resources on the continental shelf contiguous to the United States belonged to the United States through an Executive Order on 28 September 1945. Many other nations quickly adapted similar policies, most stating that their portion of the sea extended either 12 or 200 nautical miles from its coast.\n\nArticle 1 of the convention defined the term shelf in terms of exploitability rather than relying upon the geological definition. It defined a shelf \"to the seabed and subsoil of the submarine areas adjacent to the coast but outside the area of the territorial sea, to a depth of 200 meters or, beyond that limit, to where the depth of the superjacent waters admits of the exploitation of the natural resources of the said areas\" or \"to the seabed and subsoil of similar submarine areas adjacent to the coasts of islands\".\n\nBesides outlining what is legal in continental shelf areas, it also dictated what could not be done in Article 5.\n\nIn 1960, the United Nations held another conference regarding the Laws of the Sea, UNCLOS I I, but no agreements were reached. However, another conference",
+        "id": "wikipedia:19893886",
+        "injection_flagged": false,
+        "revision_id": "1325477341",
+        "score": -6.781739234924316,
+        "source": "modern",
+        "text_sha256": "85bb3e09358bf80355676fa7a01fc3ceb729d2ccae1cb848d4ce1e74fcac9bff",
+        "title": "Convention on the Continental Shelf",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1325477341"
+      },
+      {
+        "excerpt": "The Berry Dress is a 1994 mixed media sculpture by Alice Maher.\n\nThe sculpture has dimensions 25 x 32 x 24 centimeters. It is in the collection of the Irish Museum of Modern Art, Dublin.\n\nIt represents a young girl's dress painted dark pink, that stands alone on a shelf. It is self-supported due to a wax treatment. The bottom part of the dress just under the yoke is decorated with rose hips, or berries. The dress was created in 1994 and the berries were originally round and a blood red color but have dried into a shriveled brown crust. The dress presents challenges for presentation and preservation, while being itself a commentary on the definition of the term \"dress\".\n\nAlice Maher's work often incorporates natural materials and this dress can be seen as a pendant of a similar girl's dress presented on a shelf covered in mummified honeybees.\n\nWhen asked about her art, Maher said \"...the meaning is changing all the time. This depends on the context, who's looking at it, and how much time has passed. For example with a dress, it meant something completely different perhaps in the 80s than now.\"",
+        "id": "wikipedia:50521370",
+        "injection_flagged": false,
+        "revision_id": "1224846640",
+        "score": -6.862209320068359,
+        "source": "modern",
+        "text_sha256": "fa54e00ceda8ebc5e6d470e4039726035b5ecf4c6a1eb759e40e318332c860b8",
+        "title": "Berry Dress",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1224846640"
+      },
+      {
+        "excerpt": "HarborArts is an art organization located at 256 Marginal Street in East Boston, Massachusetts. It was founded by artist Steve Israel in 2009. The organization uses public art installations to address the vital roles oceans play in the sustainability of the planet, and to promote creative and sustainable ways of living. Its main feature is an outdoor gallery hosted on the grounds of the Boston Harbor Shipyard, on Boston Harborwalk.\n\nFounder Steve Israel is an artisan and pioneer in the salvage and recycling industry. Israel's work has been featured on Good Morning America, in Time, and in Newsweek. His focus is on creative and technological advances leading toward a sustainable, responsible utilization of water resources.\n\nThe founding project of the organizations was a series of monumental sculptures. One piece is a 40-foot (12 m) orange codfish, an over 2-short-ton (1,800 kg) sculpture made from re-purposed materials currently on display at the HarborArts International Outdoor Gallery.\n\nUsing the shipyard as a gallery provides a very unique opportunity for people to view and work in. As a working shipyard, it's already a sculpture unto itself.\n\n\u2014 Steve Israel on the organization's shipyard gallery\n\nThe HarborArts International Outdoor Gallery opened in June 2010 and is located on the grounds of the 15-acre (6.1 ha) Boston Harbor Shipyard and Marina. It features works from over 30 artists from three continents, which are on loan for the minimum of a year. Their 2010 show \"Hazards of Modern Living\" was juried by Randi Hopkins, Associate Curator of the Institute of Contemporary Art, Boston. New installations are continually added.\n\nHarborArts matched installations with local environmental agencies to draw attention to the work of the member organizations of the Massachusetts Ocean Coalition. The gallery has contributed to the cultural community and tourism industry of Boston.\n\nThe organization is currently in development of another gallery to be called The HarborArts Global Gallery. It is modeled after the outdoor gallery and will feature a collection of monumental art to be displayed at locations all around the world.",
+        "id": "wikipedia:29473213",
+        "injection_flagged": false,
+        "revision_id": "1348749211",
+        "score": -7.192078113555908,
+        "source": "modern",
+        "text_sha256": "6a0dc666ac9b0fadd33908bd51172a2b12a059d774ec1f3f9b3d0b14c77c5d8a",
+        "title": "HarborArts",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1348749211"
+      },
+      {
+        "excerpt": "A fireplace mantel or mantelpiece, also known as a chimneypiece, originated in medieval times as a hood that projected over a fire grate to catch the smoke. The term has evolved to include the decorative framework around the fireplace, and can include elaborate designs extending to the ceiling. Mantelpiece is now the general term for the jambs, mantel shelf, and external accessories of a fireplace. For many centuries, the chimneypiece was the most ornamental and most artistic feature of a room, but as fireplaces have become smaller, and modern methods of heating have been introduced, its artistic as well as its practical significance has lessened.\n\nWhere the fireplace continues up the wall with an elaborate construction, as in historic grand buildings, this is known as an overmantel. Mirrors and paintings designed to be hung above a mantel shelf may be called \"mantel mirror\", \"mantel painting\" and so on.\n\nUp to the twelfth century, fires were simply made in the middle of a home by a hypocaust, or with braziers, or by fires on the hearth with smoke vented out through the lantern in the roof. As time went on, the placement of fireplaces moved to the wall, incorporating chimneys to vent the smoke. This permitted the design of a very elaborate, rich, architectural focal point for a grand room.\n\nAt a later date, in consequence of the greater width of the fireplace, flat or segmental arches were thrown across and constructed with archivolt, sometimes joggled, with the thrust of the arch being resisted by bars of iron at the back.\n\nIn domestic work of the fourteenth century, the chimneypiece was greatly increased in order to allow of the members of the family sitting on either side of the fire on the hearth, and in these cases great beams of timber were employed to carry the hood; in such cases the fireplace was so deeply recessed as to become externally an important architectural feature, as at Haddon Hall. The largest chimneypiece existing is in the great hall of the Palais des Comtes at Poitiers, which is nearly 30 feet (9.1 m) wide, having two intermediate supports to carry the hood; the stone flues are carried up between the tracery of an immense window above.\n\nTh",
+        "id": "wikipedia:9348572",
+        "injection_flagged": false,
+        "revision_id": "1348167249",
+        "score": -7.430224418640137,
+        "source": "modern",
+        "text_sha256": "d4482a4eea61bc1ae9e3f3e1572d15ce904feba2cfb248770833ad3e35f67d3e",
+        "title": "Fireplace mantel",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1348167249"
+      }
+    ],
+    "language": "en",
+    "metrics": {
+      "historical_top_words": [
+        [
+          "the",
+          167
+        ],
+        [
+          "of",
+          85
+        ],
+        [
+          "to",
+          45
+        ],
+        [
+          "in",
+          37
+        ],
+        [
+          "and",
+          36
+        ],
+        [
+          "a",
+          35
+        ],
+        [
+          "as",
+          19
+        ],
+        [
+          "which",
+          18
+        ],
+        [
+          "is",
+          14
+        ],
+        [
+          "ship",
+          12
+        ],
+        [
+          "this",
+          12
+        ],
+        [
+          "on",
+          12
+        ],
+        [
+          "from",
+          11
+        ],
+        [
+          "we",
+          11
+        ],
+        [
+          "deck",
+          11
+        ]
+      ],
+      "historical_words": 1419,
+      "interpretation": "Lexical differences alone do not establish a change in factual knowledge.",
+      "jensen_shannon_divergence": 0.5398280467426996,
+      "modern_top_words": [
+        [
+          "the",
+          37
+        ],
+        [
+          "a",
+          28
+        ],
+        [
+          "be",
+          22
+        ],
+        [
+          "to",
+          20
+        ],
+        [
+          "shelf",
+          18
+        ],
+        [
+          "or",
+          18
+        ],
+        [
+          "of",
+          18
+        ],
+        [
+          "and",
+          16
+        ],
+        [
+          "shelves",
+          15
+        ],
+        [
+          "is",
+          13
+        ],
+        [
+          "wall",
+          11
+        ],
+        [
+          "can",
+          11
+        ],
+        [
+          "as",
+          10
+        ],
+        [
+          "used",
+          8
+        ],
+        [
+          "it",
+          8
+        ]
+      ],
+      "modern_words": 700,
+      "vocabulary_jaccard": 0.1280323450134771
+    },
+    "model": "nemotron-3.5-super-vl",
+    "summary": "The historical excerpt says shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels, while the modern excerpt defines a shelf as a flat, horizontal or sloping plane used for items that are displayed or stored.",
+    "title": "Compare historical and modern shipbuilding techniques. What does the historical excerpt say shelf-pieces are made from, ",
+    "uncertainty": []
+  },
+  "boundary": "Actual public Nemotron core stream; inspect tool status for semantic readiness, not inferred from answer success.",
+  "transport_status": "PASS",
+  "semantic_review": {
+    "status": "FAIL",
+    "reason": "The requested shipyard definition was replaced with a storage-shelf comparison; exact citation spans do not verify relevance."
+  }
+}

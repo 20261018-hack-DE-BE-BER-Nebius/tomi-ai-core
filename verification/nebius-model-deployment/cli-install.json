@@ -1,0 +1,13 @@
+{
+  "observed_at": "2026-10-18T17:03:29.115163+00:00",
+  "binary": "/Users/eydrent/.nebius/bin/nebius",
+  "vendor_release": "0.12.291",
+  "sha256": "ba165f824342adc7eeaad505bb1f8ffd9e2510bf11035ab07e2f8d44642ffd86",
+  "installer_source_reviewed": true,
+  "shell_profiles_changed": false,
+  "authentication_completed": true,
+  "authenticated_profile": "hackathon",
+  "project_id": "project-e05vbbhjln006mnejf0a9f",
+  "tenant_id": "tenant-e00pwb2g0c9mm4sp5s",
+  "identity_state": "ACTIVE"
+}

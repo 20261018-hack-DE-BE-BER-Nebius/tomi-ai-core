@@ -1,0 +1,482 @@
+{
+  "observed_at": "2026-10-18T20:56:17.348Z",
+  "origin": "https://tomi-web.graysky-dd3771ab.swedencentral.azurecontainerapps.io",
+  "model": "nemotron-3.5-super-vl",
+  "seconds": 21.013,
+  "status": "OPERATIONAL_PASS_SEMANTIC_FAIL",
+  "event_types": [
+    "run.started",
+    "tool.started",
+    "tool.completed",
+    "tool.started",
+    "tool.completed",
+    "answer.delta",
+    "answer.completed"
+  ],
+  "tool_events": [
+    {
+      "data": {
+        "language": "en",
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve"
+      },
+      "run_id": "597c0add-f6c7-46f3-a3e3-bbd98e64edc0",
+      "session_id": "144d276d-0156-4512-bdd9-c73cd9e24ed9",
+      "timestamp": "2026-10-18T20:55:56.835743725+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve",
+        "query": "Shipbuilding shelf-pieces and shipyard definition"
+      },
+      "run_id": "597c0add-f6c7-46f3-a3e3-bbd98e64edc0",
+      "session_id": "144d276d-0156-4512-bdd9-c73cd9e24ed9",
+      "timestamp": "2026-10-18T20:55:57.321535545+00:00",
+      "type": "tool.completed"
+    },
+    {
+      "data": {
+        "arguments": {
+          "discovery_query": "Shipbuilding shelf-pieces and shipyard definition",
+          "locale": "en",
+          "question": "Shipbuilding techniques. Compare only what the historical shipbuilding excerpt says shelf-pieces are made from with the modern shipbuilding article\u2019s definition of a shipyard. Do not compare shelves or infer technological progress.",
+          "top_k": 6
+        },
+        "name": "hermes.compare"
+      },
+      "run_id": "597c0add-f6c7-46f3-a3e3-bbd98e64edc0",
+      "session_id": "144d276d-0156-4512-bdd9-c73cd9e24ed9",
+      "timestamp": "2026-10-18T20:55:57.321553745+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "blockers": [],
+        "name": "hermes.compare",
+        "sources": 7,
+        "status": "needs_review",
+        "traces": [
+          {
+            "duration_ms": 246,
+            "occurred_at": "2026-10-18T20:55:57.677712+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.query"
+          },
+          {
+            "duration_ms": 585,
+            "occurred_at": "2026-10-18T20:55:58.263092+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 500,
+            "occurred_at": "2026-10-18T20:55:58.820129+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 492,
+            "occurred_at": "2026-10-18T20:55:59.372480+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 518,
+            "occurred_at": "2026-10-18T20:55:59.950925+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 511,
+            "occurred_at": "2026-10-18T20:56:00.555719+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 488,
+            "occurred_at": "2026-10-18T20:56:01.143758+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 44,
+            "occurred_at": "2026-10-18T20:56:01.239334+00:00",
+            "status": "completed",
+            "tool": "lancedb.historical"
+          },
+          {
+            "duration_ms": 237,
+            "occurred_at": "2026-10-18T20:56:01.536915+00:00",
+            "status": "completed",
+            "tool": "wikipedia.search"
+          },
+          {
+            "duration_ms": 543,
+            "occurred_at": "2026-10-18T20:56:02.079453+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 539,
+            "occurred_at": "2026-10-18T20:56:02.711431+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 535,
+            "occurred_at": "2026-10-18T20:56:03.297610+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 535,
+            "occurred_at": "2026-10-18T20:56:03.891359+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 558,
+            "occurred_at": "2026-10-18T20:56:04.498471+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 535,
+            "occurred_at": "2026-10-18T20:56:05.122981+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 524,
+            "occurred_at": "2026-10-18T20:56:05.753632+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 521,
+            "occurred_at": "2026-10-18T20:56:06.366151+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 71,
+            "occurred_at": "2026-10-18T20:56:06.527746+00:00",
+            "status": "completed",
+            "tool": "wikipedia.cached_exact_title"
+          },
+          {
+            "duration_ms": 355,
+            "occurred_at": "2026-10-18T20:56:06.883182+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.document"
+          },
+          {
+            "duration_ms": 52,
+            "occurred_at": "2026-10-18T20:56:06.978966+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.query"
+          },
+          {
+            "duration_ms": 30,
+            "occurred_at": "2026-10-18T20:56:07.008985+00:00",
+            "status": "completed",
+            "tool": "lancedb.search"
+          },
+          {
+            "duration_ms": 186,
+            "occurred_at": "2026-10-18T20:56:07.195068+00:00",
+            "status": "completed",
+            "tool": "nemotron.rerank"
+          },
+          {
+            "at_epoch": 1792356975.2419384,
+            "status": "completed",
+            "tool": "tomi_evidence"
+          }
+        ]
+      },
+      "run_id": "597c0add-f6c7-46f3-a3e3-bbd98e64edc0",
+      "session_id": "144d276d-0156-4512-bdd9-c73cd9e24ed9",
+      "timestamp": "2026-10-18T20:56:17.192249331+00:00",
+      "type": "tool.completed"
+    }
+  ],
+  "answer": {
+    "blocks": [
+      {
+        "historical": "<x_0.0576><y_0.0445>292 SHIP-BUILDING.<x_0.6514><y_0.0563><class_Page-header>\n\n<x_0.0615><y_0.0648>Fractical Building<x_0.126><y_0.1117><class_Section-header>\n\n<x_0.1182><y_0.057>ends in close contact with, and cooked or dowelled to, the sides of the diagonal timbers. In this state the frame--on in the hold presents various compartments, each representing the figure of a method.<x_0.5244><y_0.1172><class_Text>\n\n<x_0.1172><y_0.1109>A T reads\u2014timber is then introduced into each rhombed, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The trust--pieces so in- tended into one rhombed, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the autumn, and extension of the various ties.<x_0.5391><y_0.2141><class_Text>\n\n<x_0.1191><y_0.2094>\"This arch-like property of the diagonal frame not only opposes an alteration of position in a longitudinal direction, but also restate external pressure on the bottom, either from grounding or any other cause, because so impression can be made in its figure in these directions, without forcing the several parts of which it is composed into a shorter space.<x_0.54><y_0.2875><class_Text>\n\n<x_0.1201><y_0.2836>The beams are discussed in the system nearly as we usual, except that in buildings, where a ship necessarily re-quires the greatest security, two additional beams have been introduced.<x_0.541><y_0.3367><class_Text>\n\n<x_0.1367><y_0.3328>\u2022 The beams of the several decks are attached to the shiny\u2019s side in the following manner.<x_0.542><y_0.3617><class_List-item>\n\n<x_0.1348><y_0.3586>1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings\u2019 system, after the adoption of the circular stem into the service, \u2014to the under side of w",
+        "modern": "In India Shipbuilding is an old sector where the various types of ship manufacturing currently. There are more than 700 Shipbuilders in India. SS Jala Usha, the first modern steamship of free India, was launched from the slipway of the Hindustan Shipyard Limited in Visakhapatnam on March 14, 1948. The first oil tanker built by Cochin Shipyard Limited (CSL) was the MV Rani Padmini, which was delivered in July 1981. This is a list of notable shipbuilders and shipyards located in India:",
+        "source_ids": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+          "wikipedia:57039295"
+        ],
+        "type": "comparison"
+      }
+    ],
+    "categories": [
+      {
+        "description": "Retrieved excerpts with inspectable provenance",
+        "name": "Source evidence"
+      }
+    ],
+    "claims": [
+      {
+        "category": "coverage",
+        "citations": [
+          {
+            "document_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+            "end_cp": 2520,
+            "offset_basis": "raw_codepoints",
+            "quote": "1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings\u2019 system, after the adoption of the circular stem into the service, \u2014to the under side of which, as well as the whole part of the beams, they are securely cookies, and being then firmly bolted to the side, instead of becoming a mere local fixer of the beam to the shiny\u2019s exterior frame, as likely were, they are seen continued and general security. The shelf-piece is also a tie to the top-side in a four and a",
+            "revision_id": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+            "source_url": "https://huggingface.co/datasets/NationalLibraryOfScotland/encyclopaedia_britannica_illustrated/tree/309f765b1ecc83e0a7f7762e44b4a927a7555443",
+            "start_cp": 1720,
+            "text_sha256": "4bdd311a6eb6a14bd8632709e16b2a598e914e7dadcddc412814fcd94378ebe2"
+          },
+          {
+            "document_id": "wikipedia:57039295",
+            "end_cp": 488,
+            "offset_basis": "raw_codepoints",
+            "quote": "In India Shipbuilding is an old sector where the various types of ship manufacturing currently. There are more than 700 Shipbuilders in India. SS Jala Usha, the first modern steamship of free India, was launched from the slipway of the Hindustan Shipyard Limited in Visakhapatnam on March 14, 1948. The first oil tanker built by Cochin Shipyard Limited (CSL) was the MV Rani Padmini, which was delivered in July 1981. This is a list of notable shipbuilders and shipyards located in India:",
+            "revision_id": "1343431533",
+            "source_url": "https://en.wikipedia.org/w/index.php?oldid=1343431533",
+            "start_cp": 0,
+            "text_sha256": "fa277861461c6caef14d3af2a505cb0836ad2a41123d8a804ebfb880a9d5a5df"
+          }
+        ],
+        "support_status": "span_verified_semantics_unreviewed",
+        "text": "The historical excerpt says shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels, while the modern Wikipedia article defines a shipyard as a place where ships are built and repaired."
+      }
+    ],
+    "evidence": [
+      {
+        "excerpt": "<x_0.0576><y_0.0445>292 SHIP-BUILDING.<x_0.6514><y_0.0563><class_Page-header>\n\n<x_0.0615><y_0.0648>Fractical Building<x_0.126><y_0.1117><class_Section-header>\n\n<x_0.1182><y_0.057>ends in close contact with, and cooked or dowelled to, the sides of the diagonal timbers. In this state the frame--on in the hold presents various compartments, each representing the figure of a method.<x_0.5244><y_0.1172><class_Text>\n\n<x_0.1172><y_0.1109>A T reads\u2014timber is then introduced into each rhombed, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The trust--pieces so in- tended into one rhombed, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the autumn, and extension of the various ties.<x_0.5391><y_0.2141><class_Text>\n\n<x_0.1191><y_0.2094>\"This arch-like property of the diagonal frame not only opposes an alteration of position in a longitudinal direction, but also restate external pressure on the bottom, either from grounding or any other cause, because so impression can be made in its figure in these directions, without forcing the several parts of which it is composed into a shorter space.<x_0.54><y_0.2875><class_Text>\n\n<x_0.1201><y_0.2836>The beams are discussed in the system nearly as we usual, except that in buildings, where a ship necessarily re-quires the greatest security, two additional beams have been introduced.<x_0.541><y_0.3367><class_Text>\n\n<x_0.1367><y_0.3328>\u2022 The beams of the several decks are attached to the shiny\u2019s side in the following manner.<x_0.542><y_0.3617><class_List-item>\n\n<x_0.1348><y_0.3586>1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings\u2019 system, after the adoption of the circular stem into the service, \u2014to the under side of w",
+        "id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+        "injection_flagged": false,
+        "revision_id": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+        "score": null,
+        "source": "historical",
+        "text_sha256": "4bdd311a6eb6a14bd8632709e16b2a598e914e7dadcddc412814fcd94378ebe2",
+        "title": "Britannica page 13",
+        "untrusted": true,
+        "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/encyclopaedia_britannica_illustrated/tree/309f765b1ecc83e0a7f7762e44b4a927a7555443"
+      },
+      {
+        "excerpt": "In India Shipbuilding is an old sector where the various types of ship manufacturing currently. There are more than 700 Shipbuilders in India. SS Jala Usha, the first modern steamship of free India, was launched from the slipway of the Hindustan Shipyard Limited in Visakhapatnam on March 14, 1948. The first oil tanker built by Cochin Shipyard Limited (CSL) was the MV Rani Padmini, which was delivered in July 1981. This is a list of notable shipbuilders and shipyards located in India:",
+        "id": "wikipedia:57039295",
+        "injection_flagged": false,
+        "revision_id": "1343431533",
+        "score": -5.3451762199401855,
+        "source": "modern",
+        "text_sha256": "fa277861461c6caef14d3af2a505cb0836ad2a41123d8a804ebfb880a9d5a5df",
+        "title": "List of Indian shipbuilders and shipyards",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1343431533"
+      },
+      {
+        "excerpt": "This is a list of notable shipbuilders and shipyards: Africa\n\nSuez shipyard\n\nAlexandria Shipyard\n\nTema Shipyard\n\nBaku Shipyard\n\nFMC Dockyard Limited\n\nAnanda Shipyard and Shipways\n\nChittagong Dry Dock Limited\n\nKhulna Shipyard\n\nWestern Marine Shipyard\n\nChina State Shipbuilding Corporation\n\nChina Shipbuilding Industry Corporation\n\nHudong-Zhonghua Shipbuilding\n\nDalian Shipbuilding Industry Company\n\nGuangzhou Shipyard International\n\nJiangnan Shipyard\n\nYantai Raffles Shipyard\n\nHongkong United Dockyards\n\nMazagon Dock Limited, Mumbai, Maharashtra\n\nCochin Shipyard Limited, Kochi, Kerala Hindustan Shipyard Limited, Visakhapatnam, Andhra Pradesh\n\nGarden Reach Shipbuilders and Engineers, Kolkata, West Bengal\n\nGoa Shipyard Limited, Vasco da Gama, Goa\n\nNaval Dockyard (Bombay), Mumbai, Maharashtra\n\nNaval Dockyard (Visakhapatnam), Visakhapatnam, Andhra Pradesh\n\nJawaharlal Nehru Port Trust, Navi Mumbai, Maharashtra\n\nShalimar Works (1980) Ltd, Kolkata, West Bengal\n\nHooghly Dock & Port Engineers Limited, Howrah, West Bengal\n\nSwan Defence and Heavy Industries Limited, Port Pipavav, Gujarat\n\nBharati Defence And Infrastructure Limited, Mumbai, Maharashtra\n\nABG Shipyard Limited, Mumbai, Maharashtra\n\nHazira Port Private Limited, Hazira, Gujarat\n\nAdani Katupalli Port Private Limited, Kattupalli, Tamil Nadu\n\nModest Infrastructure Ltd, Bhavnagar, Gujarat\n\nTebma Shipyard Limited, Chennai, Tamil Nadu\n\nTimblo Drydocks Private Limited, Curchorem, Goa\n\nTitagarh Marines, Kolkata, West Bengal\n\nWestern India Shipyard Limited, Mormugao, Goa\n\nPT PAL Indonesia\n\nPT Lundin Industry Invest\n\nPT Palindo Marine\n\nSadra Shipyard\n\nPersian Gulf Shipbuilding\n\nIsrael Shipyards\n\nIAI Ramta\n\nImabari Shipbuilding Imabari\n\n30% of Japan Marine United \u2013 Universal Shipbuilding and IHI Marine United merger in 2013\n\nKawasaki Shipbuilding Corporation\n\nMitsubishi Heavy Industries (Nagasaki)\n\nbought in 2020 Mitsui Engineering & Shipbuilding\n\nSumitomo Heavy Industries Oppama\n\nBoustead Naval Shipyard Lumut\n\nBoustead Penang Shipyard Penang Island\n\nLabuan Shipyard and Engineering Labuan\n\nMalaysia Marine and Heavy Engineering Pasir Gudang\n\nBoustead Langkawi Shipyard Langkawi\n\nKarachi Shipyard & Engineering Works, Karachi\n\nPN Doc",
+        "id": "wikipedia:8278981",
+        "injection_flagged": false,
+        "revision_id": "1351658423",
+        "score": -5.6412200927734375,
+        "source": "modern",
+        "text_sha256": "ad5306ad27dee4e4854d95f77e11b37f185be95fd13555649723093665c43ac9",
+        "title": "List of shipbuilders and shipyards",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1351658423"
+      },
+      {
+        "excerpt": "Oregon Shipbuilding Corporation was a World War II emergency shipyard located along the Willamette River in Portland, Oregon, United States. The shipyard built nearly 600 Liberty and Victory ships between 1941 and 1945 under the Emergency Shipbuilding program. It was closed after the war ended.\n\nThe shipyard, one of three Kaiser Shipyards in the area, was in the St. Johns neighborhood of North Portland. The two others were the Swan Island Shipyard, located several miles upriver on Swan Island; and the Vancouver Shipyard, located across the Columbia River from Portland in Vancouver, Washington.\n\nAmong the ships built by Oregon Shipbuilding was the Star of Oregon, which was launched on Liberty Fleet Day, September 27, 1941.\n\nThe rapid expansion of Portland area shipyards during World War II and contraction afterward caused similar expansion and contraction of the population of Vanport City, Oregon, which was also built by Henry J. Kaiser to house the workers of the three area shipyards.\n\nThe former site of Oregon Shipbuilding in St. Johns is now Radius Recycling (formerly Schnitzer Steel Industries).",
+        "id": "wikipedia:7563599",
+        "injection_flagged": false,
+        "revision_id": "1338057936",
+        "score": -5.729684829711914,
+        "source": "modern",
+        "text_sha256": "c7585f1bdb9727f499bd18571fd036b9458b8ea39bd2f090e74469f06515daf0",
+        "title": "Oregon Shipbuilding Corporation",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1338057936"
+      },
+      {
+        "excerpt": "The Frieden (known in German as the Traditionsschiff Typ Frieden) is the former German motor vessel Dresden operated by the VEB Deutsche Seereederei Rostock. Since 1970 it has been used as a museum ship.\n\nThe Dresden was built in 1956/57 at the Warnow Shipyard. It was the fifth Type IV ship in the first batch of 10,000 tonne piece-goods freighters that were built in East Germany 's shipyards after the Second World War. Because the first ship of this series was christened Frieden (commissioned in June 1957), the other ships of this series of 15 new vessels were classed as Frieden type merchant ships.\n\nOn 27 July 1958 the ship was handed over to the Deutsche Seereederei shipping line and it operated until 1969 on scheduled services to East Asia, Indonesia, Africa, India and Latin America.\n\nAfter some serious defects that were found in the engine room that would have resulted in excessive repair costs, the ship was decommissioned in 1969 and opened on 13 June 1970 as the \"Rostock Shipbuilding Museum\" (Schiffbaumuseum Rostock). Part of the ship also acted as a youth hostel for a time.\n\nToday it is part of the Rostock Shipbuilding and Shipping Museum (Rostocker Schiffbau- und Schifffahrtsmuseum) in the IGA Park and contains comprehensive exhibitions of shipbuilding history. Topics include Shipbuilding in East Germany, Shipyard Operations, the History of Maritime Radio Communications and Navigation. In addition, there is a collection of various types of ship engine. Many areas of the ship have been preserved in their original state (the engine room, bridge, radio station, ship's hospital and crew cabins) and give an impression of life on a merchant ship in the 1950/60s.\n\nThe Rostock City Harbour Museum Ship action group (Traditionsschiff Stadthafen Rostock) is advocating moving the shipyard and shipping museum to a central and easily accessible site in the centre of Rostock. Low visitor numbers have been cited as the reason for this initiative.",
+        "id": "wikipedia:34011283",
+        "injection_flagged": false,
+        "revision_id": "1338037882",
+        "score": -5.808239459991455,
+        "source": "modern",
+        "text_sha256": "b71a44317d1f6fafbb248e0aa34dc15479fbf1ac232cfd728811572514766064",
+        "title": "Frieden (museum ship)",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1338037882"
+      },
+      {
+        "excerpt": "54\u00b035\u203241\u2033N 1\u00b015\u203202\u2033W / 54.594785\u00b0N 1.250453\u00b0W\n\nOffshore Structures (Britain) was a British marine offshore structure foundation manufacturing company that was based at Haverton Hill near Billingham on the north bank of the River Tees. The company was formed as a joint venture between Danish company Bladt Industries and German company EEW Group when it took over the assets of the factory that had been established by TAG Energy Solutions.\n\nIt was building structures for offshore wind farms while it was operating. The site has been empty since 2021.\n\nThe factory was previously used briefly in the late 2000s by Tees Alliance Group for a prematurely terminated contract to manufacture oil rig substructures. The works was based on the site of the Haverton Hill shipyard, initially operating as the Furness Shipbuilding Co. Ltd., established 1918. Shipbuilding at the yard ended in 1979.\n\nThe Haverton Hill shipyard opened in 1917 under a wartime construction programme. Shipbuilding took place at the yard from 1919 to 1969 as the Furness Shipbuilding Company under the shipping group Furness Withy. In 1968 the yard was acquired by Swan Hunter who operated the yard for a further decade, and finally by Smith's Dock Co. Ltd who built three ships at the yard in 1978. Shipbuilding ceased in 1979.\n\nIn 2008 the shipyard reopened under Tees Alliance Group (TAG) to construct the foundation structure of an oil rig 'SeaDragon 1', initially to be leased to Pemex (Mexico). In 2009 the contract between TAG and the rig development company (Sea Dragon Offshore) was terminated, with the financier (Lloyds TSB) citing financial risk, and the work transferred to a yard in Singapore with previous experience of rig construction.\n\nTAG Energy Solutions was established in 2010. The company invested in a new 40 by 171 metres (131 by 561 ft) production facility with machines for production of large diameter steel tubes suitable for monopoles, jacket foundations and other offshore structures. In 2013 the company was awarded a contract for monopoles and transition pieces for the Humber Gateway wind farm.\n\nIn September 2014 the company was reported entered insolvency with the loss of around 100 jobs, hav",
+        "id": "wikipedia:49445049",
+        "injection_flagged": false,
+        "revision_id": "1311485572",
+        "score": -6.041563987731934,
+        "source": "modern",
+        "text_sha256": "943f8ed4b1cc283cdc8e8af2251c90295a4f8c3269e30915abad4d541edb455e",
+        "title": "Offshore Structures (Britain)",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1311485572"
+      },
+      {
+        "excerpt": "The Design 1020 ship (full name Emergency Fleet Corporation Design 1020) was a steel - hulled cargo ship design approved for mass production by the United States Shipping Board ' s Emergency Fleet Corporation (EFT) in World War I.\n\nThey were referred to as the \"Laker\"-type. Production was spread out over ten shipyards, the majority of which were owned by American Ship Building Company\n\nAmerican Ship Building Company (21 ships), 10 at their Cleveland, Ohio shipyard and 11 at their Lorain, Ohio shipyard;\n\nSuperior Shipbuilding Company (ASBC) (6 ships) at their Superior, Wisconsin shipyard;\n\nBuffalo Shipbuilding Company (ASBC) (5 ships) at their Buffalo, New York shipyard;\n\nChicago Shipbuilding Company (ASBC) (9 ships) at their Chicago, Illinois shipyard;\n\nDetroit Shipbuilding Company (ASBC) (15 ships) at their Wyandotte, Michigan shipyard;\n\nGlobe Shipbuilding Company (6 ships) at their Superior, Wisconsin shipyard;\n\nMcDougall Duluth Shipbuilding Company (10 ships) at their Duluth, Minnesota shipyard;\n\nSaginaw Shipbuilding Company (12 ships) at their Saginaw, Michigan shipyard; and\n\nToledo Shipbuilding Company (8 ships) at their Toledo, Ohio shipyard.\n\n92 ships were completed for the USSB in 1918 and 1919. Engines were coal-fueled triple expansion engines.",
+        "id": "wikipedia:67301253",
+        "injection_flagged": false,
+        "revision_id": "1327884772",
+        "score": -6.30582857131958,
+        "source": "modern",
+        "text_sha256": "f8e76759d5d49681cdb5bb8031595f36997de34a3c43dc9ac987948b7a20e741",
+        "title": "Design 1020 ship",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1327884772"
+      }
+    ],
+    "language": "en",
+    "metrics": {
+      "historical_top_words": [
+        [
+          "the",
+          167
+        ],
+        [
+          "of",
+          85
+        ],
+        [
+          "to",
+          45
+        ],
+        [
+          "in",
+          37
+        ],
+        [
+          "and",
+          36
+        ],
+        [
+          "a",
+          35
+        ],
+        [
+          "as",
+          19
+        ],
+        [
+          "which",
+          18
+        ],
+        [
+          "is",
+          14
+        ],
+        [
+          "ship",
+          12
+        ],
+        [
+          "this",
+          12
+        ],
+        [
+          "on",
+          12
+        ],
+        [
+          "from",
+          11
+        ],
+        [
+          "we",
+          11
+        ],
+        [
+          "deck",
+          11
+        ]
+      ],
+      "historical_words": 1419,
+      "interpretation": "Lexical differences alone do not establish a change in factual knowledge.",
+      "jensen_shannon_divergence": 0.6489360914626685,
+      "modern_top_words": [
+        [
+          "the",
+          6
+        ],
+        [
+          "in",
+          5
+        ],
+        [
+          "india",
+          4
+        ],
+        [
+          "of",
+          4
+        ],
+        [
+          "was",
+          3
+        ],
+        [
+          "is",
+          2
+        ],
+        [
+          "shipbuilders",
+          2
+        ],
+        [
+          "first",
+          2
+        ],
+        [
+          "shipyard",
+          2
+        ],
+        [
+          "limited",
+          2
+        ],
+        [
+          "shipbuilding",
+          1
+        ],
+        [
+          "an",
+          1
+        ],
+        [
+          "old",
+          1
+        ],
+        [
+          "sector",
+          1
+        ],
+        [
+          "where",
+          1
+        ]
+      ],
+      "modern_words": 78,
+      "vocabulary_jaccard": 0.038128249566724434
+    },
+    "model": "nemotron-3.5-super-vl",
+    "summary": "The historical excerpt says shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels, while the modern Wikipedia article defines a shipyard as a place where ships are built and repaired.",
+    "title": "Shipbuilding techniques. Compare only what the historical shipbuilding excerpt says shelf-pieces are made from with the ",
+    "uncertainty": []
+  },
+  "boundary": "Actual public Nemotron core stream; inspect tool status for semantic readiness, not inferred from answer success.",
+  "transport_status": "PASS",
+  "semantic_review": {
+    "status": "FAIL",
+    "reason": "The generated shipyard definition is absent from the cited modern excerpt, which is a list of Indian shipbuilders. Exact citation spans do not establish support."
+  }
+}

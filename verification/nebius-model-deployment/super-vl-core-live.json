@@ -1,0 +1,11 @@
+{
+  "observed_at": "2026-10-18T17:17:04.489853+00:00",
+  "route": "authenticated core /v1/chat/completions",
+  "model_alias": "nemotron-3.5-super-vl",
+  "status": 200,
+  "duration_seconds": 0.68,
+  "model": "nvidia/Nemotron-3.5-Super-VL",
+  "content": "CORE NEMOTRON READY",
+  "finish_reason": "stop",
+  "passed": true
+}

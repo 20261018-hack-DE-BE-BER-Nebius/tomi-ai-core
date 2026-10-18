@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-10-18T17:11:31.311699+00:00",
+  "route": "authenticated core /v1/parse",
+  "fixture": "controlled JPEG containing TOMI CHECK; not corpus evidence",
+  "fixture_sha256": "a86cd586f3ffe43acadde78f3018f4433e23fc1923cbb5923e8ebd52fda4287a",
+  "status": 200,
+  "duration_seconds": 0.247,
+  "model": "nvidia/nemotron-3.5-parse",
+  "content": "<x_0.0><y_0.0>TOMI CHECK<x_0.998><y_0.9938><class_Section-header>",
+  "finish_reason": "stop",
+  "passed": true
+}

@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-18T18:20:40.841585+00:00",
+  "status": "client_timeout",
+  "client_timeout_seconds": 120,
+  "elapsed_seconds_not_captured": true,
+  "note": "First public request followingCPUrollout timed out; subsequent isolated cloudcore HTTP succeeded32.185262s. Public path must be retested afterfinalrevision."
+}

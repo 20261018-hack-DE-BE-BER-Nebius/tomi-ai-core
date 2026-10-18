@@ -1,0 +1,212 @@
+{
+  "observed_at": "2026-10-18T21:10:15.601Z",
+  "origin": "https://tomi-web.graysky-dd3771ab.swedencentral.azurecontainerapps.io",
+  "model": "nemotron-3.5-super-vl",
+  "seconds": 19.483,
+  "status": "FAIL",
+  "event_types": [
+    "run.started",
+    "tool.started",
+    "tool.completed",
+    "tool.started",
+    "tool.completed",
+    "run.failed"
+  ],
+  "tool_events": [
+    {
+      "data": {
+        "language": "en",
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve"
+      },
+      "run_id": "7959520a-60c4-4b19-aee0-f724f23b8673",
+      "session_id": "5d8c6dc9-a9d3-48d0-a84b-a98c0548e7e0",
+      "timestamp": "2026-10-18T21:09:57.135301799+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve",
+        "query": "Shipbuilding"
+      },
+      "run_id": "7959520a-60c4-4b19-aee0-f724f23b8673",
+      "session_id": "5d8c6dc9-a9d3-48d0-a84b-a98c0548e7e0",
+      "timestamp": "2026-10-18T21:09:57.805056850+00:00",
+      "type": "tool.completed"
+    },
+    {
+      "data": {
+        "arguments": {
+          "discovery_query": "Shipbuilding",
+          "locale": "en",
+          "question": "Shipbuilding. Answer only two points from the supplied historical and modern excerpts: (1) Which material forms the historical shelf-pieces? (2) Where does modern shipbuilding normally take place? Do not discuss joints, repairs, other techniques, or technological progress.",
+          "top_k": 6
+        },
+        "name": "hermes.compare"
+      },
+      "run_id": "7959520a-60c4-4b19-aee0-f724f23b8673",
+      "session_id": "5d8c6dc9-a9d3-48d0-a84b-a98c0548e7e0",
+      "timestamp": "2026-10-18T21:09:57.805093650+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "blockers": [
+          "Every comparative claim requires evidence from both corpora"
+        ],
+        "name": "hermes.compare",
+        "sources": 7,
+        "status": "blocked",
+        "traces": [
+          {
+            "duration_ms": 360,
+            "occurred_at": "2026-10-18T21:09:58.238134+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.query"
+          },
+          {
+            "duration_ms": 637,
+            "occurred_at": "2026-10-18T21:09:58.874964+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 515,
+            "occurred_at": "2026-10-18T21:09:59.452521+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 518,
+            "occurred_at": "2026-10-18T21:10:00.071010+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 549,
+            "occurred_at": "2026-10-18T21:10:00.684518+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 552,
+            "occurred_at": "2026-10-18T21:10:01.292375+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 548,
+            "occurred_at": "2026-10-18T21:10:01.952187+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 56,
+            "occurred_at": "2026-10-18T21:10:02.068525+00:00",
+            "status": "completed",
+            "tool": "lancedb.historical"
+          },
+          {
+            "duration_ms": 182,
+            "occurred_at": "2026-10-18T21:10:02.311156+00:00",
+            "status": "completed",
+            "tool": "wikipedia.search"
+          },
+          {
+            "duration_ms": 523,
+            "occurred_at": "2026-10-18T21:10:02.834023+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 521,
+            "occurred_at": "2026-10-18T21:10:03.414367+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 533,
+            "occurred_at": "2026-10-18T21:10:04.029886+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 532,
+            "occurred_at": "2026-10-18T21:10:04.619780+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 538,
+            "occurred_at": "2026-10-18T21:10:05.205881+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 528,
+            "occurred_at": "2026-10-18T21:10:05.795283+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 520,
+            "occurred_at": "2026-10-18T21:10:06.366101+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 539,
+            "occurred_at": "2026-10-18T21:10:06.953778+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 156,
+            "occurred_at": "2026-10-18T21:10:07.169165+00:00",
+            "status": "completed",
+            "tool": "wikipedia.cached_exact_title"
+          },
+          {
+            "duration_ms": 381,
+            "occurred_at": "2026-10-18T21:10:07.550382+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.document"
+          },
+          {
+            "duration_ms": 56,
+            "occurred_at": "2026-10-18T21:10:07.660446+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.query"
+          },
+          {
+            "duration_ms": 35,
+            "occurred_at": "2026-10-18T21:10:07.695320+00:00",
+            "status": "completed",
+            "tool": "lancedb.search"
+          },
+          {
+            "duration_ms": 203,
+            "occurred_at": "2026-10-18T21:10:07.898725+00:00",
+            "status": "completed",
+            "tool": "nemotron.rerank"
+          },
+          {
+            "at_epoch": 1792357813.6341124,
+            "status": "completed",
+            "tool": "tomi_evidence"
+          }
+        ]
+      },
+      "run_id": "7959520a-60c4-4b19-aee0-f724f23b8673",
+      "session_id": "5d8c6dc9-a9d3-48d0-a84b-a98c0548e7e0",
+      "timestamp": "2026-10-18T21:10:15.501192352+00:00",
+      "type": "tool.completed"
+    }
+  ],
+  "answer": {
+    "code": "not_configured",
+    "message": "Source retrieval is blocked; inspect the tool trace for the missing evidence or dependency"
+  },
+  "boundary": "Actual public Nemotron core stream; inspect tool status for semantic readiness, not inferred from answer success."
+}

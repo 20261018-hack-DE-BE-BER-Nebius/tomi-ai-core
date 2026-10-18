@@ -1,0 +1,30 @@
+{
+  "observed_at": "2026-10-18T21:13:29.647249+00:00",
+  "status": "PASS_NARROW_SOURCE_ENTAILMENT",
+  "review_class": "assistant manual review of supplied source spans and original historical scan; not independent human certification",
+  "run_id": "a2be75fc-9a67-411d-b464-5e13af3ce5ca",
+  "public_run_at": "2026-10-18T21:08:42.001Z",
+  "public_run_seconds": 22.279,
+  "public_receipt": "public-nvidia-comparison.json",
+  "historical_document_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+  "modern_document_id": "wikipedia:187377",
+  "modern_revision": "1348971360",
+  "historical_image_digest_sha256": "50049db49e8b83dc59735eae8cc35e6df733062d4bcb07c5cb4663d51cade012",
+  "historical_image_relative_to_hermes": "data/images/page-0013-50049db49e8b.jpg",
+  "crop": "historical-shelf-pieces-crop.png",
+  "crop_digest_sha256": "15ceaceefbe20ce8bce477ba1d7bb19abbbb8fc50d9ea1e5564e9a25cd19e9b3",
+  "crop_box_original_pixels": [
+    75,
+    295,
+    330,
+    352
+  ],
+  "crop_transform": "Rectangular crop and6xdisplayresize; no generated content or OCR replacement",
+  "reviewed_facts": [
+    "The original scan says shelf-pieces comprise several lengths of timber.",
+    "The original scan says they are scarphed or joined together by coaks or circular dowels; model prose modernizes the spelling to scarfed.",
+    "The cited Wikipedia Shipbuilding opening defines a shipyard as the specialized facility where modern shipbuilding normally takes place."
+  ],
+  "scope": "Narrow coverage comparison. No claim of technological progress, general semantic reliability, OCR perfection, or independent human sign-off.",
+  "subsequent_attempt": "public-nvidia-comparison-two-facts-failure.json records a later split-question response rejected by the both-corpora-per-claim validator."
+}

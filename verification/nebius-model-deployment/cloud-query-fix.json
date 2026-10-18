@@ -1,0 +1,7 @@
+{
+  "observed_at": "2026-10-18T17:32:07.297806+00:00",
+  "image_digest": "sha256:f7c324bc97b2d2062cb694afb95be84fcac1c7fd3d4771f2db7f4546fb7787ad",
+  "acr_run": "dtk",
+  "change": "NVIDIA query resolution requests reasoning_effort none to avoid budget exhaustion",
+  "other_fields_preserved": true
+}

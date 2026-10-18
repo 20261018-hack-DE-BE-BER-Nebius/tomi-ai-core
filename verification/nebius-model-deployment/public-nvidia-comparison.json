@@ -1,0 +1,485 @@
+{
+  "observed_at": "2026-10-18T21:08:42.001Z",
+  "origin": "https://tomi-web.graysky-dd3771ab.swedencentral.azurecontainerapps.io",
+  "model": "nemotron-3.5-super-vl",
+  "seconds": 22.279,
+  "status": "PASS",
+  "event_types": [
+    "run.started",
+    "tool.started",
+    "tool.completed",
+    "tool.started",
+    "tool.completed",
+    "answer.delta",
+    "answer.completed"
+  ],
+  "tool_events": [
+    {
+      "data": {
+        "language": "en",
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve"
+      },
+      "run_id": "a2be75fc-9a67-411d-b464-5e13af3ce5ca",
+      "session_id": "a9c8bbf8-7a27-4594-8655-b0d347bcaeec",
+      "timestamp": "2026-10-18T21:08:20.449614575+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "model": "nvidia/Nemotron-3.5-Super-VL",
+        "name": "query.resolve",
+        "query": "Shipbuilding"
+      },
+      "run_id": "a2be75fc-9a67-411d-b464-5e13af3ce5ca",
+      "session_id": "a9c8bbf8-7a27-4594-8655-b0d347bcaeec",
+      "timestamp": "2026-10-18T21:08:21.134487937+00:00",
+      "type": "tool.completed"
+    },
+    {
+      "data": {
+        "arguments": {
+          "discovery_query": "Shipbuilding",
+          "locale": "en",
+          "question": "Shipbuilding techniques. Compare only what the historical shipbuilding excerpt says shelf-pieces are made from with the modern shipbuilding article\u2019s definition of a shipyard. Do not compare shelves or infer technological progress.",
+          "top_k": 6
+        },
+        "name": "hermes.compare"
+      },
+      "run_id": "a2be75fc-9a67-411d-b464-5e13af3ce5ca",
+      "session_id": "a9c8bbf8-7a27-4594-8655-b0d347bcaeec",
+      "timestamp": "2026-10-18T21:08:21.134505837+00:00",
+      "type": "tool.started"
+    },
+    {
+      "data": {
+        "blockers": [],
+        "name": "hermes.compare",
+        "sources": 7,
+        "status": "needs_review",
+        "traces": [
+          {
+            "duration_ms": 224,
+            "occurred_at": "2026-10-18T21:08:21.485943+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.query"
+          },
+          {
+            "duration_ms": 584,
+            "occurred_at": "2026-10-18T21:08:22.070290+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 508,
+            "occurred_at": "2026-10-18T21:08:22.657032+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 519,
+            "occurred_at": "2026-10-18T21:08:23.280763+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 509,
+            "occurred_at": "2026-10-18T21:08:23.842854+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 514,
+            "occurred_at": "2026-10-18T21:08:24.418720+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 516,
+            "occurred_at": "2026-10-18T21:08:25.035258+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.history"
+          },
+          {
+            "duration_ms": 43,
+            "occurred_at": "2026-10-18T21:08:25.138403+00:00",
+            "status": "completed",
+            "tool": "lancedb.historical"
+          },
+          {
+            "duration_ms": 213,
+            "occurred_at": "2026-10-18T21:08:25.408905+00:00",
+            "status": "completed",
+            "tool": "wikipedia.search"
+          },
+          {
+            "duration_ms": 532,
+            "occurred_at": "2026-10-18T21:08:25.940623+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 532,
+            "occurred_at": "2026-10-18T21:08:26.531306+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 539,
+            "occurred_at": "2026-10-18T21:08:27.145988+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 524,
+            "occurred_at": "2026-10-18T21:08:27.777272+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 534,
+            "occurred_at": "2026-10-18T21:08:28.380686+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 529,
+            "occurred_at": "2026-10-18T21:08:29.019266+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 538,
+            "occurred_at": "2026-10-18T21:08:29.627642+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 533,
+            "occurred_at": "2026-10-18T21:08:30.262236+00:00",
+            "status": "completed",
+            "tool": "wikipedia.article"
+          },
+          {
+            "duration_ms": 83,
+            "occurred_at": "2026-10-18T21:08:30.454481+00:00",
+            "status": "completed",
+            "tool": "wikipedia.cached_exact_title"
+          },
+          {
+            "duration_ms": 337,
+            "occurred_at": "2026-10-18T21:08:30.791177+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.document"
+          },
+          {
+            "duration_ms": 51,
+            "occurred_at": "2026-10-18T21:08:30.885760+00:00",
+            "status": "completed",
+            "tool": "nemotron.embed.query"
+          },
+          {
+            "duration_ms": 35,
+            "occurred_at": "2026-10-18T21:08:30.921085+00:00",
+            "status": "completed",
+            "tool": "lancedb.search"
+          },
+          {
+            "duration_ms": 190,
+            "occurred_at": "2026-10-18T21:08:31.111361+00:00",
+            "status": "completed",
+            "tool": "nemotron.rerank"
+          },
+          {
+            "at_epoch": 1792357719.4129224,
+            "status": "completed",
+            "tool": "tomi_evidence"
+          }
+        ]
+      },
+      "run_id": "a2be75fc-9a67-411d-b464-5e13af3ce5ca",
+      "session_id": "a9c8bbf8-7a27-4594-8655-b0d347bcaeec",
+      "timestamp": "2026-10-18T21:08:41.769973397+00:00",
+      "type": "tool.completed"
+    }
+  ],
+  "answer": {
+    "blocks": [
+      {
+        "historical": "<x_0.0576><y_0.0445>292 SHIP-BUILDING.<x_0.6514><y_0.0563><class_Page-header>\n\n<x_0.0615><y_0.0648>Fractical Building<x_0.126><y_0.1117><class_Section-header>\n\n<x_0.1182><y_0.057>ends in close contact with, and cooked or dowelled to, the sides of the diagonal timbers. In this state the frame--on in the hold presents various compartments, each representing the figure of a method.<x_0.5244><y_0.1172><class_Text>\n\n<x_0.1172><y_0.1109>A T reads\u2014timber is then introduced into each rhombed, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The trust--pieces so in- tended into one rhombed, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the autumn, and extension of the various ties.<x_0.5391><y_0.2141><class_Text>\n\n<x_0.1191><y_0.2094>\"This arch-like property of the diagonal frame not only opposes an alteration of position in a longitudinal direction, but also restate external pressure on the bottom, either from grounding or any other cause, because so impression can be made in its figure in these directions, without forcing the several parts of which it is composed into a shorter space.<x_0.54><y_0.2875><class_Text>\n\n<x_0.1201><y_0.2836>The beams are discussed in the system nearly as we usual, except that in buildings, where a ship necessarily re-quires the greatest security, two additional beams have been introduced.<x_0.541><y_0.3367><class_Text>\n\n<x_0.1367><y_0.3328>\u2022 The beams of the several decks are attached to the shiny\u2019s side in the following manner.<x_0.542><y_0.3617><class_List-item>\n\n<x_0.1348><y_0.3586>1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings\u2019 system, after the adoption of the circular stem into the service, \u2014to the under side of w",
+        "modern": "Shipbuilding is the construction of ships and other floating vessels. In modern times, it normally takes place in a specialized facility known as a shipyard. Shipbuilders, also called shipwrights, follow a specialized occupation that traces its roots to before recorded history.\n\nUntil recently, with the development of complex non-maritime technologies during the industrial revolution, a ship has often represented the most advanced structure that the society building it could produce.: ch1 Some key industrial advances were developed to support shipbuilding, for instance the sawing of timbers by mechanical saws propelled by windmills in Dutch shipyards during the first half of the 17th century.: 34\u201337 The design process saw the early adoption of the logarithm (invented in 1615) to generate the curves used to produce the shape of a hull, especially when scaling up these curves accurately in the mould loft.\n\nShipbuilding and ship repairs, both commercial and military, are referred to as naval engineering. The construction of boats is a similar activity called boat building.\n\nThe dismantling of ships is called ship breaking.\n\nThe earliest evidence of maritime transport by modern humans is the settlement of Australia between 50,000 and 60,000 years ago. This almost certainly involved rafts, possibly equipped with some sort of sail.: 29, 33 Much of the development beyond that raft technology occurred in the \"nursery\" areas of the Mediterranean and in Maritime Southeast Asia. Favoured by warmer waters and a number of inter-visible islands, boats (and, later, ships) with water-tight hulls (unlike the \"flow through\" structure of a raft) could be developed.: 113 : 7, 63 The ships of ancient Egypt were built by joining the hull planks together, edge to edge, with tenons set in mortices cut in the mating edges. A similar technique, but with the tenons being pinned in position by dowels, was used in the Mediterranean for most of classical antiquity. Both these variants are \"shell first\" techniques, where any reinforcing frames are inserted after assembly of the planking has defined the hull shape.: 81\u201388 Carvel construction then took over in the Mediterranean. Northern Europe",
+        "source_ids": [
+          "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+          "wikipedia:187377"
+        ],
+        "type": "comparison"
+      }
+    ],
+    "categories": [
+      {
+        "description": "Retrieved excerpts with inspectable provenance",
+        "name": "Source evidence"
+      }
+    ],
+    "claims": [
+      {
+        "category": "coverage",
+        "citations": [
+          {
+            "document_id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+            "end_cp": 2520,
+            "offset_basis": "raw_codepoints",
+            "quote": "1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings\u2019 system, after the adoption of the circular stem into the service, \u2014to the under side of which, as well as the whole part of the beams, they are securely cookies, and being then firmly bolted to the side, instead of becoming a mere local fixer of the beam to the shiny\u2019s exterior frame, as likely were, they are seen continued and general security. The shelf-piece is also a tie to the top-side in a four and a",
+            "revision_id": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+            "source_url": "https://huggingface.co/datasets/NationalLibraryOfScotland/encyclopaedia_britannica_illustrated/tree/309f765b1ecc83e0a7f7762e44b4a927a7555443",
+            "start_cp": 1720,
+            "text_sha256": "4bdd311a6eb6a14bd8632709e16b2a598e914e7dadcddc412814fcd94378ebe2"
+          },
+          {
+            "document_id": "wikipedia:187377",
+            "end_cp": 800,
+            "offset_basis": "raw_codepoints",
+            "quote": "Shipbuilding is the construction of ships and other floating vessels. In modern times, it normally takes place in a specialized facility known as a shipyard. Shipbuilders, also called shipwrights, follow a specialized occupation that traces its roots to before recorded history.\n\nUntil recently, with the development of complex non-maritime technologies during the industrial revolution, a ship has often represented the most advanced structure that the society building it could produce.: ch1 Some key industrial advances were developed to support shipbuilding, for instance the sawing of timbers by mechanical saws propelled by windmills in Dutch shipyards during the first half of the 17th century.: 34\u201337 The design process saw the early adoption of the logarithm (invented in 1615) to generate t",
+            "revision_id": "1348971360",
+            "source_url": "https://en.wikipedia.org/w/index.php?oldid=1348971360",
+            "start_cp": 0,
+            "text_sha256": "4e0ee6694b55edc40293146c4a9f0fddc6a7ec7b983ea5a733fc935ee8a93e73"
+          }
+        ],
+        "support_status": "span_verified_semantics_unreviewed",
+        "text": "The historical excerpt says shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels, while the modern article defines a shipyard as a specialized facility where shipbuilding normally takes place in modern times."
+      }
+    ],
+    "evidence": [
+      {
+        "excerpt": "<x_0.0576><y_0.0445>292 SHIP-BUILDING.<x_0.6514><y_0.0563><class_Page-header>\n\n<x_0.0615><y_0.0648>Fractical Building<x_0.126><y_0.1117><class_Section-header>\n\n<x_0.1182><y_0.057>ends in close contact with, and cooked or dowelled to, the sides of the diagonal timbers. In this state the frame--on in the hold presents various compartments, each representing the figure of a method.<x_0.5244><y_0.1172><class_Text>\n\n<x_0.1172><y_0.1109>A T reads\u2014timber is then introduced into each rhombed, with an inclination opposite to that of the diagonal timbers, thereby dividing it into two parts. The trust--pieces so in- tended into one rhombed, are to the diagonal frames where the key-stone is to the arch; for no weight or pressure on the fabric can alter its position in a longitudinal direction till compression takes place at the autumn, and extension of the various ties.<x_0.5391><y_0.2141><class_Text>\n\n<x_0.1191><y_0.2094>\"This arch-like property of the diagonal frame not only opposes an alteration of position in a longitudinal direction, but also restate external pressure on the bottom, either from grounding or any other cause, because so impression can be made in its figure in these directions, without forcing the several parts of which it is composed into a shorter space.<x_0.54><y_0.2875><class_Text>\n\n<x_0.1201><y_0.2836>The beams are discussed in the system nearly as we usual, except that in buildings, where a ship necessarily re-quires the greatest security, two additional beams have been introduced.<x_0.541><y_0.3367><class_Text>\n\n<x_0.1367><y_0.3328>\u2022 The beams of the several decks are attached to the shiny\u2019s side in the following manner.<x_0.542><y_0.3617><class_List-item>\n\n<x_0.1348><y_0.3586>1 Lc by And of pieces internal hoops, distinguished by the letter 2. These shelf-pieces are composed of several lengths of timber, scarded or joined together by coaks or circular downs, so as to form a full of internal hoop, extending from the hooks forward, to the transons shall --(in the plate the transons are not shown), we have chosen the perfected application of Sir Robert Seapings\u2019 system, after the adoption of the circular stem into the service, \u2014to the under side of w",
+        "id": "britannica:309f765b1ecc83e0a7f7762e44b4a927a7555443:train:13",
+        "injection_flagged": false,
+        "revision_id": "309f765b1ecc83e0a7f7762e44b4a927a7555443",
+        "score": null,
+        "source": "historical",
+        "text_sha256": "4bdd311a6eb6a14bd8632709e16b2a598e914e7dadcddc412814fcd94378ebe2",
+        "title": "Britannica page 13",
+        "untrusted": true,
+        "url": "https://huggingface.co/datasets/NationalLibraryOfScotland/encyclopaedia_britannica_illustrated/tree/309f765b1ecc83e0a7f7762e44b4a927a7555443"
+      },
+      {
+        "excerpt": "Shipbuilding is the construction of ships and other floating vessels. In modern times, it normally takes place in a specialized facility known as a shipyard. Shipbuilders, also called shipwrights, follow a specialized occupation that traces its roots to before recorded history.\n\nUntil recently, with the development of complex non-maritime technologies during the industrial revolution, a ship has often represented the most advanced structure that the society building it could produce.: ch1 Some key industrial advances were developed to support shipbuilding, for instance the sawing of timbers by mechanical saws propelled by windmills in Dutch shipyards during the first half of the 17th century.: 34\u201337 The design process saw the early adoption of the logarithm (invented in 1615) to generate the curves used to produce the shape of a hull, especially when scaling up these curves accurately in the mould loft.\n\nShipbuilding and ship repairs, both commercial and military, are referred to as naval engineering. The construction of boats is a similar activity called boat building.\n\nThe dismantling of ships is called ship breaking.\n\nThe earliest evidence of maritime transport by modern humans is the settlement of Australia between 50,000 and 60,000 years ago. This almost certainly involved rafts, possibly equipped with some sort of sail.: 29, 33 Much of the development beyond that raft technology occurred in the \"nursery\" areas of the Mediterranean and in Maritime Southeast Asia. Favoured by warmer waters and a number of inter-visible islands, boats (and, later, ships) with water-tight hulls (unlike the \"flow through\" structure of a raft) could be developed.: 113 : 7, 63 The ships of ancient Egypt were built by joining the hull planks together, edge to edge, with tenons set in mortices cut in the mating edges. A similar technique, but with the tenons being pinned in position by dowels, was used in the Mediterranean for most of classical antiquity. Both these variants are \"shell first\" techniques, where any reinforcing frames are inserted after assembly of the planking has defined the hull shape.: 81\u201388 Carvel construction then took over in the Mediterranean. Northern Europe",
+        "id": "wikipedia:187377",
+        "injection_flagged": false,
+        "revision_id": "1348971360",
+        "score": -3.204888820648194,
+        "source": "modern",
+        "text_sha256": "4e0ee6694b55edc40293146c4a9f0fddc6a7ec7b983ea5a733fc935ee8a93e73",
+        "title": "Shipbuilding",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1348971360"
+      },
+      {
+        "excerpt": "The Active Shipbuilding Experts' Federation is an international non-governmental organization. Its purpose is to contribute sound development of international maritime transportation and further enhancement of the world maritime safety, marine environment protection and maritime security, through communication and cooperation among the shipbuilding industry on technical agenda especially in International Maritime Organization. The federation's activities cover matters in relation to building new ships as well as repair conversions, offshore units.\n\nThe Active Shipbuilding Experts' Federation has 11 members. which are constructing more than 90% of global share of new ship deliveries. Members are national shipbuilders' associations or a major shipbuilder in the absence of an association.\n\nThe Shipbuilders' Association of Japan (SAJ) China Association of the National Shipbuilding Industry (CANSI) Korea Offshore & Shipbuilding Association (KOSHIPA) Turkish Shipbuilders' Association (GISBIR) Association of Marine Industries of Malaysia (AMIM) The Association of Singapore Marine & Offshore Energy Industries (ASMI) Colombo Dockyard PLC (Sri Lanka) Shipyard Association of India (SAI) Indonesia Shipbuilding and Offshore Industry Association (IPERINDO) Shipbuilding Industry Corporation (SBIC) Thai Shipbuilding and Repairing Association (TSBA)",
+        "id": "wikipedia:54501555",
+        "injection_flagged": false,
+        "revision_id": "1351224540",
+        "score": -5.035618305206299,
+        "source": "modern",
+        "text_sha256": "58d4b3861a02afce5a29940fb25f86c5d5d4c684ceb62539e69155022ee7990b",
+        "title": "Active Shipbuilding Experts' Federation",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1351224540"
+      },
+      {
+        "excerpt": "The Northumberland Shipbuilding Company was a shipbuilding business based at Howdon in Tyne and Wear.\n\nThe company was established by Harry S. Edwards in Howdon in 1883. Following the death of the founder the business was bought by Rowland Hodge in 1898. At that time Furness Withy were both a major shareholder and a major customer. In 1918 it became a public company and subsequently acquired controlling interests in William Doxford & Sons, Fairfield Shipbuilding and Engineering Company, Workman, Clark and Company, Blythswood Shipbuilding Company, Monmouth Shipbuilding Company and the Lancashire Iron and Steel Company. The combined business was the largest shipbuilding combine in the United Kingdom. Following a collapse in demand and over-ordering of steel the business went into receivership in 1926. It briefly re-opened under new ownership in 1927 but closed again in 1930.",
+        "id": "wikipedia:46845046",
+        "injection_flagged": false,
+        "revision_id": "1313332344",
+        "score": -5.05678653717041,
+        "source": "modern",
+        "text_sha256": "d3c8010baf6c984de71f3c4772676ed6b3487f32ec432f5207a33f057647e6a1",
+        "title": "Northumberland Shipbuilding Company",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1313332344"
+      },
+      {
+        "excerpt": "K Shipbuilding Co., Ltd. (Korean: \uc8fc\uc2dd\ud68c\uc0ac \ucf00\uc774\uc870\uc120), formerly STX Offshore & Shipbuilding, is a South Korean shipbuilding company. The company was named Daedong Shipbuilding before being acquired by STX. K Shipbuilding was once the world's fourth-largest shipbuilder but entered a creditor-led workout program in 2013. It was delisted in 2014 and went into court receivership in 2016 and 2017.\n\nIn 2021, a consortium led by United Asset Management Company (UAMCO) and KH Investment (KHI), purchased STX Offshoring & Shipbuilding for KRW 250 billion (US$ 220 million) from the creditor, including Korea Development Bank. STX O&S was rebranded as K Shipbuilding after the ownership change.",
+        "id": "wikipedia:15430110",
+        "injection_flagged": false,
+        "revision_id": "1353008981",
+        "score": -5.061258792877197,
+        "source": "modern",
+        "text_sha256": "c67809118a93ab394409af146a5c240b7d196dcd3a87741b9ef7cdf859bf07f9",
+        "title": "K Shipbuilding",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1353008981"
+      },
+      {
+        "excerpt": "British Shipbuilders (BS) was a public corporation that owned and managed the shipbuilding industry in Great Britain from 1977 to the end of the 1980s. Its head office was at Benton House in Newcastle upon Tyne, England.\n\nThe corporation was founded as a result of the Aircraft and Shipbuilding Industries Act 1977, which nationalised 27 major shipbuilding and marine engineering companies in Great Britain. A further six ship repair companies and a further shipyard were also acquired by the corporation, with British Shipbuilders initially comprising 32 shipyards, six marine engine works and 6 general engineering plants. Collectively, British Shipbuilders accounted for 97% of the UK's merchant shipbuilding capacity, 100% of its warship-building capacity, 100% of slow speed diesel engine manufacturing and approximately 50% of ship-repair capacity. Harland & Wolff, the only shipbuilder based in Northern Ireland, was deemed to be a special political case and remained out of the control of the British Shipbuilders' management, despite it also being in state ownership from 1977.\n\nThe same act nationalised the three large UK aerospace companies and grouped them in an analogous corporation, British Aerospace.\n\nThe first Chairman of British Shipbuilders, serving from 1977 to 1980, was Admiral Sir Anthony Griffin. He was succeeded by Sir Robert Atkinson, who in turn was succeeded by Graham Day in 1984, Phillip Hares in 1986. The final operational chairman, John Lister, took office in 1987, continuing until 1989.\n\nThe company was initially organised into four operating divisions: Merchant, Naval, Ship-repair, Marine Engineering and General Engineering. This was restructured into five trading divisions in 1980: Merchant Shipbuilding, Warship-building, Engineering, Ship-repair and Offshore.\n\nBy the end of 1982, British Shipbuilders had closed half of its shipyards in an effort to reduce over-capacity. The terms of the British Shipbuilders Act 1983 (c. 15) then required the company to begin a process of privatising its remaining assets. The various divisions that had remained under integrated nationalised ownership were divested throughout the 1980s as the company wound up opera",
+        "id": "wikipedia:1446314",
+        "injection_flagged": false,
+        "revision_id": "1352756969",
+        "score": -5.291667461395264,
+        "source": "modern",
+        "text_sha256": "e4fd2fa425cfdd18d79b5d708f7f75262a99283fb05a8be5103694df41603d75",
+        "title": "British Shipbuilders",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1352756969"
+      },
+      {
+        "excerpt": "National Shipbuilders Security was a UK Government body established in 1930, under the Chairmanship of Sir James Lithgow, of the eponymous Clyde shipbuilding giant Lithgows. The remit of National Shipbuilders Security was to remove over-capacity from the British shipbuilding industry. Between 1930 and 1938 it bought numerous shipbuilders that were in economic difficulties. It closed and demolished most of the shipyards it bought, including William Beardmore and Company at Dalmuir on the River Clyde, Bow, McLachlan and Company in Paisley and Earle's Shipbuilding in Kingston upon Hull. It also bought and shut down the Palmers Shipbuilding and Iron Company and thereby caused much unemployment, which inspired the Jarrow March.",
+        "id": "wikipedia:22417092",
+        "injection_flagged": false,
+        "revision_id": "1036070471",
+        "score": -5.307690620422363,
+        "source": "modern",
+        "text_sha256": "aed197f5a5585b1919db00883befef9070be176dda4bcc92c16263552a5cbe36",
+        "title": "National Shipbuilders Security",
+        "untrusted": true,
+        "url": "https://en.wikipedia.org/w/index.php?oldid=1036070471"
+      }
+    ],
+    "language": "en",
+    "metrics": {
+      "historical_top_words": [
+        [
+          "the",
+          167
+        ],
+        [
+          "of",
+          85
+        ],
+        [
+          "to",
+          45
+        ],
+        [
+          "in",
+          37
+        ],
+        [
+          "and",
+          36
+        ],
+        [
+          "a",
+          35
+        ],
+        [
+          "as",
+          19
+        ],
+        [
+          "which",
+          18
+        ],
+        [
+          "is",
+          14
+        ],
+        [
+          "ship",
+          12
+        ],
+        [
+          "this",
+          12
+        ],
+        [
+          "on",
+          12
+        ],
+        [
+          "from",
+          11
+        ],
+        [
+          "we",
+          11
+        ],
+        [
+          "deck",
+          11
+        ]
+      ],
+      "historical_words": 1419,
+      "interpretation": "Lexical differences alone do not establish a change in factual knowledge.",
+      "jensen_shannon_divergence": 0.47297167134124657,
+      "modern_top_words": [
+        [
+          "the",
+          427
+        ],
+        [
+          "of",
+          212
+        ],
+        [
+          "and",
+          168
+        ],
+        [
+          "in",
+          141
+        ],
+        [
+          "to",
+          127
+        ],
+        [
+          "a",
+          106
+        ],
+        [
+          "ships",
+          72
+        ],
+        [
+          "with",
+          60
+        ],
+        [
+          "were",
+          58
+        ],
+        [
+          "as",
+          52
+        ],
+        [
+          "was",
+          46
+        ],
+        [
+          "from",
+          45
+        ],
+        [
+          "by",
+          43
+        ],
+        [
+          "is",
+          42
+        ],
+        [
+          "for",
+          42
+        ]
+      ],
+      "modern_words": 5593,
+      "vocabulary_jaccard": 0.10974409448818898
+    },
+    "model": "nemotron-3.5-super-vl",
+    "summary": "The historical excerpt says shelf-pieces are composed of several lengths of timber, scarfed or joined together by coaks or circular dowels; the modern article defines a shipyard as a specialized facility where shipbuilding normally takes place in modern times.",
+    "title": "Shipbuilding techniques. Compare only what the historical shipbuilding excerpt says shelf-pieces are made from with the ",
+    "uncertainty": [
+      "Review required: citations match the source text, but the comparison's meaning and relevance to the question have not been verified."
+    ]
+  },
+  "boundary": "Actual public Nemotron core stream; inspect tool status for semantic readiness, not inferred from answer success.",
+  "semantic_review": {
+    "status": "PASS_NARROW_SOURCE_ENTAILMENT",
+    "receipt": "source-entailment-review.json",
+    "review_class": "assistant manual review of supplied source spans and original historical scan; not independent human certification"
+  },
+  "selection_note": "This completed run was selected after review of both citations and the original scan. Later and earlier failed attempts are retained separately; this is not an all-prompts success claim."
+}

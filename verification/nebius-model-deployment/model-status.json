@@ -1,0 +1,62 @@
+{
+  "observed_at": "2026-10-18T21:13:29.647249+00:00",
+  "models": [
+    {
+      "id": "nvidia/nemotron-3.5-parse",
+      "status": "verified_live",
+      "receipt": "parse-live.json"
+    },
+    {
+      "id": "nvidia/llama-nemotron-embed-vl-1b-v2",
+      "revision": "582e3bf72aee355e3c59ed89de53543c5b0657ee",
+      "status": "verified_live_through_core",
+      "gpu_inference_verified": true,
+      "acr_run": "dtf",
+      "receipt": "core-retrieval-live.json",
+      "endpoint_id": "aiendpoint-e05f3e78pdnqnrgf9g"
+    },
+    {
+      "id": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+      "revision": "b8a9987b05b75db5ad949c825cbcbf6eb7c48b5a",
+      "status": "verified_live_through_core",
+      "gpu_inference_verified": true,
+      "acr_run": "dtf",
+      "receipt": "core-retrieval-live.json",
+      "endpoint_id": "aiendpoint-e05f3e78pdnqnrgf9g"
+    },
+    {
+      "id": "nvidia/Nemotron-3.5-Super-VL",
+      "status": "verified_live_through_core",
+      "catalog_visibly_lists_model": true,
+      "inference_verified": true,
+      "receipt": "super-vl-core-live.json"
+    },
+    {
+      "id": "nvidia/Nemotron-3-Diarization",
+      "revision": "f667ed73aee57d40cc39428eb768b4fd87a0a29e",
+      "status": "verified_live_public_http",
+      "receipt": "public-diarization.json",
+      "mode": "batch_cpu",
+      "cloud_status": "verified_http_200",
+      "cloud_seconds": 34.29,
+      "cloud_revision": "tomi-ai-core--0000007"
+    }
+  ],
+  "challenge_pipeline_ready": true,
+  "nebius_cloud_login_verified": true,
+  "project": "project-e05vbbhjln006mnejf0a9f",
+  "region": "uk-south2",
+  "diarization": "Real public web-to-back-to-core batch CPU inference verified; anonymous speaker segments, no identity inference or ground-truth accuracy claim.",
+  "human_blockers": [],
+  "challenge_pipeline_status": "Verified public execution and one narrow source-reviewed comparison; broader and split-question failures are preserved.",
+  "readiness_scope": "Actual model, retrieval, framework and tool execution; every runtime answer still requires semantic review.",
+  "public_comparison_review": "source-entailment-review.json",
+  "known_comparison_failures": [
+    "public-nvidia-comparison-before-blank-filter.json",
+    "public-nvidia-comparison-topic-mismatch.json",
+    "public-nvidia-comparison-explicit-subject-mismatch.json",
+    "public-nvidia-comparison-two-facts-failure.json"
+  ],
+  "current_core_image": "sha256:559286e9e2e968ba0b90ab0b0b59edb010b24fb50ef32700b80d9f38b5b9114f",
+  "current_core_revision": "tomi-ai-core--0000008"
+}

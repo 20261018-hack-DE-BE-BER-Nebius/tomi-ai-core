@@ -1,0 +1,32 @@
+{
+  "observed_at": "2026-10-18T18:00:19.542886+00:00",
+  "rust_tests_passed": 24,
+  "cargo_fmt": "pass",
+  "cargo_clippy": "pass via installed stable component (pinned1.99.1 component unavailable)",
+  "cargo_audit": "pass250dependencies1338advisories",
+  "container_secret_scan": "pass",
+  "live_regressions": [
+    "super-vl-query-regression.json",
+    "diarization-live.json",
+    "core-retrieval-live.json",
+    "encyclopedia-title-regression.json"
+  ],
+  "new_security_cases": [
+    "audio URI/format/size validation",
+    "anonymous segment range and overlap validation",
+    "temporary recording cleanup",
+    "child environment excludes provider credentials",
+    "original user constraints survive Nemotron discovery query transformation",
+    "Hermes needs-review status cannot disappear from EN/ES/DE/FR answer uncertainty"
+  ],
+  "scanner_log_digest_sha256": "f3907fa18c91f29cc029decf89fdc1e415ca21817a225637ade588d33263e2d6",
+  "final_evidence_scan": {
+    "observed_at": "2026-10-18T21:15:14.859747+00:00",
+    "status": "pass",
+    "scanner": "Official Gitleaks8.30.1 immutable container",
+    "log_digest_sha256": "2d42b009c38b75744c17b9f719f67649d4c3e94c4c13f76342223124a4e6daf9",
+    "bytes_scanned": 1953245
+  },
+  "last_source_validation_at": "2026-10-18T21:02:19.611261+00:00",
+  "artifact_freeze_at": "2026-10-18T21:15:14.859747+00:00"
+}
