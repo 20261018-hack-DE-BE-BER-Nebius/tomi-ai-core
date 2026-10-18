@@ -90,6 +90,19 @@ pub fn answer(
                 .collect()
         })
         .unwrap_or_default();
+    if upstream.get("status").and_then(Value::as_str) == Some("needs_review")
+        || upstream
+            .get("claims")
+            .and_then(Value::as_array)
+            .is_some_and(|claims| {
+                claims.iter().any(|claim| {
+                    claim.get("support_status").and_then(Value::as_str)
+                        == Some("span_verified_semantics_unreviewed")
+                })
+            })
+    {
+        uncertainty.push(json!(localized(&input.language, "review")));
+    }
     if historical.is_empty() || modern.is_empty() {
         uncertainty.push(json!(localized(&input.language, "missing")));
     }
@@ -110,6 +123,18 @@ pub fn answer(
 
 fn localized<'a>(language: &str, key: &str) -> &'a str {
     match (language, key) {
+        ("es", "review") => {
+            "Requiere revisión: las citas coinciden con los textos, pero el significado de la comparación y su pertinencia para la pregunta no se han verificado."
+        }
+        ("de", "review") => {
+            "Prüfung erforderlich: Die Zitate stimmen mit den Texten überein, aber die Bedeutung des Vergleichs und seine Relevanz für die Frage wurden nicht überprüft."
+        }
+        ("fr", "review") => {
+            "Révision nécessaire : les citations correspondent aux textes, mais le sens de la comparaison et sa pertinence pour la question n’ont pas été vérifiés."
+        }
+        (_, "review") => {
+            "Review required: citations match the source text, but the comparison's meaning and relevance to the question have not been verified."
+        }
         ("es", "history_lexical") => {
             "Página histórica seleccionada por coincidencia léxica; la selección semántica no está disponible."
         }
@@ -169,5 +194,37 @@ mod tests {
         assert_eq!(records.len(), 1);
         assert_eq!(records[0]["source"], "historical");
         assert_eq!(records[0]["injection_flagged"], true);
+    }
+
+    #[test]
+    fn semantic_review_status_is_visible_in_all_supported_languages() {
+        let evidence = vec![json!({"source":"historical"}), json!({"source":"modern"})];
+        for language in ["en", "es", "de", "fr"] {
+            let input = crate::api::types::ChatInput {
+                session_id: "session".into(),
+                request_id: "request".into(),
+                text: "Compare source evidence".into(),
+                model: "nemotron-3.5-super-vl".into(),
+                language: language.into(),
+                context: vec![],
+            };
+            for upstream in [
+                json!({"status":"needs_review","uncertainty":["OCR can contain errors."]}),
+                json!({"status":"candidate","claims":[{"support_status":"span_verified_semantics_unreviewed"}],"uncertainty":["OCR can contain errors."]}),
+            ] {
+                let card = answer("A span-valid claim", &input, &evidence, &upstream);
+                let warnings = card["uncertainty"].as_array().unwrap();
+                assert_eq!(warnings.len(), 2);
+                assert_eq!(warnings[0], "OCR can contain errors.");
+                assert_eq!(warnings[1], localized(language, "review"));
+            }
+            let reviewed = answer(
+                "Reviewed claim",
+                &input,
+                &evidence,
+                &json!({"status":"reviewed"}),
+            );
+            assert!(reviewed["uncertainty"].as_array().unwrap().is_empty());
+        }
     }
 }
