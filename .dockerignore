@@ -1,0 +1,9 @@
+.git
+target
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+verification
+.DS_Store

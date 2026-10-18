@@ -1,0 +1,30 @@
+# Local development only. Production deployment uses Azure Container Apps and Terraform.
+services:
+  tomi-ai-core:
+    build: .
+    image: tomi-ai-core:${CORE_IMAGE_TAG:-dev}
+    env_file: .env
+    environment:
+      TOMI_HTTP_ADDR: 0.0.0.0:8081
+      TOMI_GRPC_ADDR: 0.0.0.0:50051
+      TOMI_HERMES_URL: ${TOMI_HERMES_URL:-http://host.docker.internal:8083}
+    ports:
+      - "127.0.0.1:${CORE_HTTP_PORT:-8081}:8081"
+      - "127.0.0.1:${CORE_GRPC_PORT:-50051}:50051"
+    healthcheck:
+      test: [CMD, curl, -fsS, "http://127.0.0.1:8081/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+      start_period: 15s
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 512M
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "3"
