@@ -1,0 +1,24 @@
+syntax = "proto3";
+package tomi.ai.v1;
+service AiGatewayService {
+  rpc Chat(ChatRequest) returns (stream ChatResponse);
+  rpc GetModels(GetModelsRequest) returns (GetModelsResponse);
+}
+message ChatRequest {
+  string session_id = 1;
+  string request_id = 2;
+  string text = 3;
+  string model = 4;
+  string language = 5;
+}
+message ChatResponse {
+  string type = 1;
+  string run_id = 2;
+  string session_id = 3;
+  string timestamp = 4;
+  string data_json = 5;
+}
+message GetModelsRequest {}
+message GetModelsResponse {
+  string catalog_json = 1;
+}
